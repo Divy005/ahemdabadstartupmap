@@ -80,7 +80,27 @@ directory export and run it through the importer:
 npm run import -- path/to/export.csv --merge
 ```
 
-Sources that publish Ahmedabad/Gujarat startup lists you can export or scrape:
+### Getting to 1,000+: the Startup India register
+
+Public funding datasets top out at a few dozen Ahmedabad companies. The only
+source at the thousands scale is the **DPIIT / Startup India register** (~13,600
+recognised startups in Gujarat), and it is behind a JavaScript-rendered search
+page with no public bulk export.
+
+`scripts/startup-india-extract.js` harvests it from your own browser:
+
+1. Open `startupindia.gov.in/content/sih/en/search.html`, filter to
+   Role = Startup, State = Gujarat, City = Ahmedabad.
+2. DevTools → Console → paste the whole file → Enter.
+3. It pages through the results at one page per 1.5s and downloads
+   `startup-india-ahmedabad.csv`.
+4. `npm run import -- startup-india-ahmedabad.csv --merge --geocode --email you@example.com`
+
+Keep the pacing as it is — it holds the request rate to roughly what a person
+clicking through would generate. If the site's markup has changed, the script
+says so and points at the selector block to update.
+
+Other sources you can export or scrape:
 
 - **Startup India (DPIIT)** — `startupindia.gov.in`, filter State=Gujarat,
   City=Ahmedabad, Role=Startup. The official recognised-startup register.
@@ -170,6 +190,34 @@ the dataset.
 Add a logo by dropping a file in `public/logos/` and setting `"logo":
 "/logos/name.png"`. Without one, the card renders a sector-tinted letter
 avatar — which is what every entry currently uses.
+
+## Where the current data came from
+
+The dataset mixes two tiers, and every entry says which it belongs to:
+
+| Tier | Count | What it means |
+| --- | --- | --- |
+| Hand-checked | 60 | Compiled entry by entry, with area-level or precise pins, founders, funding and curated job links. |
+| Imported | 32 | Pulled from public Indian startup funding datasets on GitHub (Kaggle mirrors). City-level location only, no website, founders and year not independently verified. Each carries a `source` note shown in its detail panel. |
+
+The imported tier came from these public repositories:
+
+- [`MainakRepositor/Datasets`](https://github.com/MainakRepositor/Datasets) — Indian startups funding 2021
+- [`DeepakKumarGS/Indian-Startup-Funding-`](https://github.com/DeepakKumarGS/Indian-Startup-Funding-) — the Kaggle 2015–2020 funding set
+- [`Laxmisneha05/Indian_Startups_Analysis`](https://github.com/Laxmisneha05/Indian_Startups_Analysis) — top-300 profiles
+- [`MahabhoiAryan/Startup_India-EDA`](https://github.com/MahabhoiAryan/Startup_India-EDA) — Startup India EDA
+
+Rows those datasets place in Ahmedabad but that are headquartered elsewhere
+(BillDesk, BluSmart) were dropped by hand. They are a reminder that these sets
+carry their own errors — verify before treating any imported row as fact.
+
+One deliberate exclusion: [`mratanusarkar/Dataset-Indian-Companies`](https://github.com/mratanusarkar/Dataset-Indian-Companies)
+has 8,302 rows mentioning Ahmedabad, which looks like an easy route to 1,000+.
+It is not usable here: its `location` column lists every city a company
+operates in, alphabetically, so "Ahmedabad + 434 more" is a Mumbai company
+sorting first. Names are also truncated mid-string and there are no websites or
+street addresses. Importing it would have padded the map with tyre factories
+and hospitals rather than improving it.
 
 ## Data methodology
 

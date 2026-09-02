@@ -17,6 +17,7 @@ export function logoUrl(
   size = 128,
 ): string | null {
   if (company.logo) return company.logo;
+  if (!company.website) return null;
   try {
     const host = new URL(company.website).hostname.replace(/^www\./, "");
     if (!host || !host.includes(".")) return null;

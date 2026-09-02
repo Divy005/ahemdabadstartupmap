@@ -171,6 +171,7 @@ export function initials(name: string) {
 }
 
 export function hostname(url: string) {
+  if (!url) return "";
   try {
     return new URL(url).hostname.replace(/^www\./, "");
   } catch {

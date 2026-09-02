@@ -109,6 +109,7 @@ export default function StartupModal({
             >
               {startup.name}
             </h2>
+            {startup.website ? (
             <a
               href={startup.website}
               target="_blank"
@@ -121,6 +122,9 @@ export default function StartupModal({
                 <path d="M3.5 5.75A2.25 2.25 0 0 1 5.75 3.5h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 0-.75.75v4.5c0 .41.34.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.5a.75.75 0 0 1 1.5 0v.5a2.25 2.25 0 0 1-2.25 2.25h-4.5A2.25 2.25 0 0 1 3.5 10.25v-4.5Z" />
               </svg>
             </a>
+            ) : (
+              <p className="mt-0.5 text-[12.5px] text-ink-300">No website on record</p>
+            )}
           </div>
           <button
             type="button"
@@ -221,6 +225,12 @@ export default function StartupModal({
             </section>
           )}
 
+          {startup.source && (
+            <p className="mt-5 rounded-lg bg-ink-50/70 px-3.5 py-2.5 text-[11.5px] leading-relaxed text-ink-400">
+              Source: {startup.source}
+            </p>
+          )}
+
           {startup.tags.length > 0 && (
             <div className="mt-6 flex flex-wrap gap-1.5">
               {startup.tags.map((t) => (
@@ -236,16 +246,18 @@ export default function StartupModal({
         </div>
 
         {/* Footer */}
-        <div className="border-t border-ink-100 px-5 py-3.5">
-          <a
-            href={startup.website}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex h-11 w-full items-center justify-center rounded-full bg-ink-600 text-sm font-semibold text-white transition-colors hover:bg-ink-700"
-          >
-            Visit {startup.name}
-          </a>
-        </div>
+        {startup.website && (
+          <div className="border-t border-ink-100 px-5 py-3.5">
+            <a
+              href={startup.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-11 w-full items-center justify-center rounded-full bg-ink-600 text-sm font-semibold text-white transition-colors hover:bg-ink-700"
+            >
+              Visit {startup.name}
+            </a>
+          </div>
+        )}
       </div>
     </div>
   );

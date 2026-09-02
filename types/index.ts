@@ -31,7 +31,9 @@ export interface Startup {
   founded?: number;
   founders: string[];
   funding?: string;
-  website: string;
+  website?: string;
+  /** Where this record came from, for the methodology note. */
+  source?: string;
   location: StartupLocation;
   hiring: boolean;
   jobs: Job[];
@@ -44,7 +46,7 @@ export interface JobListing extends Job {
   companyId: string;
   companyName: string;
   companyLogo?: string;
-  companyWebsite: string;
+  companyWebsite?: string;
   sector: string;
   area: string;
   stage: string;

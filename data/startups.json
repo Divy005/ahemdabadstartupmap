@@ -33,6 +33,48 @@
     ]
   },
   {
+    "id": "airmed-labs",
+    "name": "AirMed Labs",
+    "description": "Health Tests Booking platform & ePharmacy",
+    "sector": "HealthTech",
+    "stage": "Series C+",
+    "type": "startup",
+    "founders": [],
+    "funding": "1,400,000 · Backed by Brand Capital",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.0311,
+      "lng": 72.56604,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
+    "id": "almamapper",
+    "name": "AlmaMapper",
+    "description": "AlmaMapper is an Ahmedabad-based company working in online student & campus social networking platform.",
+    "sector": "EdTech",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "400,000 · Backed by Oswal Techno Ventures LLP",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.0148,
+      "lng": 72.56472,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
     "id": "arvind-internet",
     "name": "Arvind Internet (NNNOW)",
     "description": "Digital commerce arm of the Arvind group, running the NNNOW omnichannel platform and in-house retail tech for the group's apparel brands.",
@@ -112,6 +154,27 @@
       "ux-design",
       "product-studio"
     ]
+  },
+  {
+    "id": "awaaz-de",
+    "name": "Awaaz De",
+    "description": "Awaaz De is an Ahmedabad-based company working in enterprise communication platform.",
+    "sector": "Other",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "Backed by Samir Shah",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.03084,
+      "lng": 72.56238,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
   },
   {
     "id": "azilen",
@@ -243,6 +306,27 @@
       "ecommerce"
     ],
     "featured": true
+  },
+  {
+    "id": "cityshor",
+    "name": "CityShor",
+    "description": "online lifestyle media recommendation portal",
+    "sector": "Other",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "Backed by GAIN",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.02818,
+      "lng": 72.57142,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
   },
   {
     "id": "claris-lifesciences",
@@ -402,6 +486,52 @@
       "accelerator",
       "workspace"
     ]
+  },
+  {
+    "id": "digital-class-e-learning-marketplace",
+    "name": "Digital Class E-Learning Marketplace",
+    "description": "Sellers and consumers of online courses can meet on this educational marketplace.",
+    "sector": "EdTech",
+    "stage": "Seed",
+    "type": "startup",
+    "founded": 2017,
+    "founders": [
+      "Hitesh Mohkar",
+      "Tushar Dhakate"
+    ],
+    "funding": "$42,000 disclosed",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.02168,
+      "lng": 72.5776,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
+    "id": "dont-scratch-your-head",
+    "name": "Don’t Scratch Your Head",
+    "description": "Full Stack Offline & Online ERP Solution",
+    "sector": "SaaS",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "250,000 · Backed by Gaurav Singhvi, Zaffiro Ventures",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.02162,
+      "lng": 72.57488,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
   },
   {
     "id": "echai-ventures",
@@ -603,6 +733,51 @@
     ]
   },
   {
+    "id": "enercomp",
+    "name": "Enercomp",
+    "description": "Enercomp Solutions Pvt Ltd provide drone based economically viable solutions for different sectors to improve efficiency and accuracy.",
+    "sector": "SaaS",
+    "stage": "Seed",
+    "type": "startup",
+    "founded": 2013,
+    "founders": [
+      "SURESH SHAHDADPURI"
+    ],
+    "funding": "$200,000 · Backed by ah! Ventures",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.0199,
+      "lng": 72.57448,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
+    "id": "equickies",
+    "name": "eQuickies",
+    "description": "eQuickies is an Ahmedabad-based company working in ecommerce.",
+    "sector": "E-commerce",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "298,000 · Backed by Lothal Angel Ventures",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.02822,
+      "lng": 72.5678,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
     "id": "eris-lifesciences",
     "name": "Eris Lifesciences",
     "description": "India-focused branded formulations company built around chronic therapies such as cardio-metabolic and diabetes care, listed since 2017.",
@@ -643,6 +818,48 @@
     ]
   },
   {
+    "id": "eswasthya",
+    "name": "eSwasthya",
+    "description": "Online Medicine Delivery Aggregator",
+    "sector": "Other",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "Backed by Hemang Sahani",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.01714,
+      "lng": 72.56894,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
+    "id": "ezysolare",
+    "name": "EzySolare",
+    "description": "EzySolare is an Ahmedabad-based company working in solar products and services marketplace.",
+    "sector": "CleanTech",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "Backed by Infuse Ventures",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.0194,
+      "lng": 72.56842,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
     "id": "gian",
     "name": "GIAN",
     "description": "Grassroots Innovation Augmentation Network — an Ahmedabad institution that incubates and commercialises grassroots innovations from across India.",
@@ -669,6 +886,48 @@
       "incubator",
       "social-impact"
     ]
+  },
+  {
+    "id": "gingercrush",
+    "name": "Gingercrush",
+    "description": "Gingercrush is an Ahmedabad-based company working in custom merchandize platform.",
+    "sector": "D2C",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "1,000,000 · Backed by Gokul Jaykrishna, Brand Capital",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.02458,
+      "lng": 72.56362,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
+    "id": "gridle",
+    "name": "Gridle",
+    "description": "Gridle is an Ahmedabad-based company working in cloud based collaboration platform.",
+    "sector": "SaaS",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "100,000 · Backed by LetsVenture",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.01886,
+      "lng": 72.56384,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
   },
   {
     "id": "gusec",
@@ -771,6 +1030,27 @@
     ]
   },
   {
+    "id": "healthkumbh",
+    "name": "HealthKumbh",
+    "description": "Health related Information portal",
+    "sector": "HealthTech",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "73,000 · Backed by Undisclosed investor",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.01602,
+      "lng": 72.56782,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
     "id": "hidden-brains",
     "name": "Hidden Brains InfoTech",
     "description": "Enterprise software and mobility company delivering ERP, cloud and application development projects for clients across 100+ countries.",
@@ -810,6 +1090,30 @@
       "mobility",
       "consulting"
     ]
+  },
+  {
+    "id": "homversity",
+    "name": "Homversity",
+    "description": "Homversity is the digital ecosystem that aims to support the 93 BN USD student housing & Co-living industry in India.",
+    "sector": "EdTech",
+    "stage": "Seed",
+    "type": "startup",
+    "founded": 2017,
+    "founders": [
+      "Saurav Kumar Sinha"
+    ],
+    "funding": "$$1,55,000",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.02416,
+      "lng": 72.56234,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
   },
   {
     "id": "hubilo",
@@ -1069,6 +1373,51 @@
     ]
   },
   {
+    "id": "ishitva",
+    "name": "Ishitva",
+    "description": "Sort to create value’ using #AI, #Robotics and #AirSorter to achieve a #circulareconomy with environmental benefits.",
+    "sector": "CleanTech",
+    "stage": "Pre-seed",
+    "type": "startup",
+    "founded": 2018,
+    "founders": [
+      "Jitesh Dadlani"
+    ],
+    "funding": "$1,000,000 · Backed by Inflection Point Ventures",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.02176,
+      "lng": 72.56268,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
+    "id": "jollyfoodfellow",
+    "name": "JollyFoodFellow",
+    "description": "Food Related Marketing & Branding platform",
+    "sector": "D2C",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "300,000 · Backed by Janak Parikh",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.0219,
+      "lng": 72.56374,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
     "id": "kody-technolab",
     "name": "Kody Technolab",
     "description": "App and robotics company building delivery and service robots alongside a mobile app development practice.",
@@ -1149,6 +1498,27 @@
       "magento",
       "consulting"
     ]
+  },
+  {
+    "id": "la-renon",
+    "name": "La Renon",
+    "description": "La Renon is an Ahmedabad-based company working in global healthcare products.",
+    "sector": "HealthTech",
+    "stage": "Series C+",
+    "type": "startup",
+    "founders": [],
+    "funding": "16,000,000 · Backed by Sequoia Capital",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.02016,
+      "lng": 72.5614,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
   },
   {
     "id": "legalwiz",
@@ -1239,6 +1609,27 @@
       "nbfc"
     ],
     "featured": true
+  },
+  {
+    "id": "locanix",
+    "name": "Locanix",
+    "description": "Locanix is an Ahmedabad-based company working in technology.",
+    "sector": "SaaS",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "300,000 · Backed by Undisclosed investors",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.0184,
+      "lng": 72.5782,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
   },
   {
     "id": "matter",
@@ -1420,6 +1811,98 @@
     ]
   },
   {
+    "id": "myonsto",
+    "name": "Myonsto",
+    "description": "Myonsto is an Ahmedabad-based company working in online grocers.",
+    "sector": "E-commerce",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "320,000 · Backed by Jayant Bokadia",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.01494,
+      "lng": 72.57754,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
+    "id": "newsreach",
+    "name": "NewsReach",
+    "description": "NewsReach is a Mumbai based company that wants to create a disruptive ecosystem of original and local news content.",
+    "sector": "Other",
+    "stage": "Seed",
+    "type": "startup",
+    "founded": 2018,
+    "founders": [
+      "Soniya Kundnani",
+      "Darshan Shah"
+    ],
+    "funding": "$300,000 · Backed by JITO Angel Network",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.02252,
+      "lng": 72.57764,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
+    "id": "ninety-one",
+    "name": "Ninety One",
+    "description": "Ninety One makes cycles, which the company claims are affordable and different from the ones available in the market.",
+    "sector": "D2C",
+    "stage": "Series A",
+    "type": "startup",
+    "founded": 2015,
+    "founders": [
+      "Sachin Chopra",
+      "Vishal Chopra"
+    ],
+    "funding": "$30,000,000 · Backed by A91 Partners",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.03224,
+      "lng": 72.57214,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
+    "id": "oho-shop",
+    "name": "Oho Shop",
+    "description": "eCommerce Mobile App Builder",
+    "sector": "E-commerce",
+    "stage": "Series C+",
+    "type": "startup",
+    "founders": [],
+    "funding": "6,700,000 · Backed by Bennett, Coleman and Company Ltd",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.02358,
+      "lng": 72.58032,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
     "id": "openxcell",
     "name": "OpenXcell",
     "description": "Software and mobile app development company offering dedicated engineering teams, with a growing generative-AI and cloud practice.",
@@ -1556,8 +2039,8 @@
     "type": "startup",
     "founded": 2011,
     "founders": [
-      "Prasanna Kumar",
-      "Ashutosh Vinchurkar"
+      "Apurv Patel",
+      "Parthiv Patel"
     ],
     "funding": "Backed by Bessemer Venture Partners",
     "website": "https://www.petpooja.com",
@@ -1600,7 +2083,29 @@
       "pos",
       "b2b-saas"
     ],
-    "featured": true
+    "featured": true,
+    "source": "Founders corrected against Inc42 / StartupTalky reporting."
+  },
+  {
+    "id": "plexusmd",
+    "name": "PlexusMD",
+    "description": "Social Network for Healthcare Professionals",
+    "sector": "HealthTech",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "Backed by Arihant Patni, Avnish Mehra, Pranay Adhvaryu, Ravi Sampat",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.01764,
+      "lng": 72.5691,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
   },
   {
     "id": "prompt-equipments",
@@ -1642,6 +2147,30 @@
       "agri-automation",
       "hardware"
     ]
+  },
+  {
+    "id": "r-for-rabbit",
+    "name": "R for Rabbit",
+    "description": "The concept of R for Rabbit was conceived after the founder of the company was blessed with a baby.",
+    "sector": "D2C",
+    "stage": "Seed",
+    "type": "startup",
+    "founded": 2014,
+    "founders": [
+      "Kunal Popat"
+    ],
+    "funding": "$5,000,000 · Backed by Xponentia Capital Partners",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.02454,
+      "lng": 72.57006,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
   },
   {
     "id": "radixweb",
@@ -1725,6 +2254,53 @@
     ]
   },
   {
+    "id": "renee-cosmetics",
+    "name": "RENEE Cosmetics",
+    "description": "RENÉE Cosmetics is an Indian makeup brand empowering bold & beautiful women with innovative, cruelty-free products.",
+    "sector": "D2C",
+    "stage": "Pre-seed",
+    "type": "startup",
+    "founded": 2019,
+    "founders": [
+      "Priyank Shah",
+      "Ashutosh Valani",
+      "Aashka Goradia Goble"
+    ],
+    "funding": "$1,500,000 · Backed by Equanimity Ventures, 9Unicorns",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.0266,
+      "lng": 72.56978,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
+    "id": "robovac",
+    "name": "RoboVac",
+    "description": "waterless car washing solution",
+    "sector": "SaaS",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "450,000 · Backed by Virendra Patel",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.02364,
+      "lng": 72.56964,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
     "id": "sahaj-solar",
     "name": "Sahaj Solar",
     "description": "Solar EPC and manufacturing company delivering solar pumps, rooftop systems and utility-scale projects, listed on NSE Emerge.",
@@ -1764,6 +2340,27 @@
       "renewables",
       "epc"
     ]
+  },
+  {
+    "id": "salebhai",
+    "name": "SaleBhai",
+    "description": "Sweets, Dry Fruits & Handicrafts etailer",
+    "sector": "E-commerce",
+    "stage": "Series C+",
+    "type": "startup",
+    "founders": [],
+    "funding": "1,500,000 · Backed by Brand Capital",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.01782,
+      "lng": 72.57336,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
   },
   {
     "id": "saleshandy",
@@ -2069,6 +2666,30 @@
     ]
   },
   {
+    "id": "sterling-accuris-wellness",
+    "name": "Sterling Accuris Wellness",
+    "description": "STERLING ACCURIS WELLNESS PRIVATE LIMITED is a hospital & health care company based out of 3-FLOOR HERITAGE COMPLEX, NR.",
+    "sector": "HealthTech",
+    "stage": "Seed",
+    "type": "startup",
+    "founded": 2016,
+    "founders": [
+      "Girish Patel"
+    ],
+    "funding": "$30,000,000 · Backed by Morgan Stanley Private Equity Asia",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.01766,
+      "lng": 72.57926,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
     "id": "symphony",
     "name": "Symphony Limited",
     "description": "Listed consumer-durables company that pioneered the modern air cooler category in India and exports to more than 60 countries.",
@@ -2196,6 +2817,48 @@
       "data-engineering",
       "google-cloud"
     ]
+  },
+  {
+    "id": "the-indian-iris",
+    "name": "The Indian IRIS",
+    "description": "Govt Policy Research & Information portal",
+    "sector": "Other",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "Backed by Timbru Ventures",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.02906,
+      "lng": 72.5782,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
+    "id": "the-kettlery",
+    "name": "The Kettlery",
+    "description": "The Kettlery is an Ahmedabad-based company working in ecommerce.",
+    "sector": "E-commerce",
+    "stage": "Series C+",
+    "type": "startup",
+    "founders": [],
+    "funding": "1,000,000 · Backed by hooting Starts Sports LLP, Franchise India Brands",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.02468,
+      "lng": 72.5736,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
   },
   {
     "id": "torrent-pharma",
@@ -2346,6 +3009,27 @@
     ]
   },
   {
+    "id": "wimwi-foods",
+    "name": "WIMWI Foods",
+    "description": "Healthy food manufacturing & sales startup",
+    "sector": "HealthTech",
+    "stage": "Seed",
+    "type": "startup",
+    "founders": [],
+    "funding": "Backed by Centre for Innovation Incubation and Entrepreneurship (CIIE)",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.03218,
+      "lng": 72.56638,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
+  },
+  {
     "id": "yudiz",
     "name": "Yudiz Solutions",
     "description": "Game development, blockchain and mobile app studio listed on NSE Emerge, building casual and real-money games alongside enterprise Web3 products.",
@@ -2391,6 +3075,27 @@
       "blockchain",
       "mobile-apps"
     ]
+  },
+  {
+    "id": "zebpay",
+    "name": "Zebpay",
+    "description": "Bitcoin Buying & Selling Mobile App",
+    "sector": "Fintech",
+    "stage": "Series C+",
+    "type": "startup",
+    "founders": [],
+    "funding": "1,000,000 · Backed by Arjun Handa, Amit Jindal, Nagendra Chaudhary",
+    "source": "Imported from public Indian startup funding datasets (Kaggle / GitHub). Location is city-level only; founders and year not independently verified.",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.02802,
+      "lng": 72.58016,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": []
   },
   {
     "id": "zignuts",

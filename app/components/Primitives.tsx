@@ -1,7 +1,8 @@
 "use client";
 
-import { memo } from "react";
+import { memo, useEffect, useState } from "react";
 import type { Startup } from "@/types";
+import { logoUrl } from "@/lib/logo";
 import {
   JOB_TYPE_LABELS,
   JOB_TYPE_STYLES,
@@ -18,25 +19,19 @@ export const CompanyAvatar = memo(function CompanyAvatar({
   size = 44,
   className,
 }: {
-  company: Pick<Startup, "name" | "sector" | "logo">;
+  company: Pick<Startup, "name" | "sector" | "logo" | "website">;
   size?: number;
   className?: string;
 }) {
   const color = avatarColor(company);
-  if (company.logo) {
-    return (
-      // eslint-disable-next-line @next/next/no-img-element
-      <img
-        src={company.logo}
-        alt=""
-        width={size}
-        height={size}
-        className={cx("rounded-lg object-contain", className)}
-        style={{ width: size, height: size }}
-      />
-    );
-  }
-  return (
+  const src = logoUrl(company, size * 2);
+  const [failed, setFailed] = useState(false);
+
+  // A different company can land in the same memoised slot; clear the old
+  // failure so its logo gets a fresh attempt.
+  useEffect(() => setFailed(false), [src]);
+
+  const letterAvatar = (
     <span
       aria-hidden="true"
       className={cx(
@@ -54,6 +49,25 @@ export const CompanyAvatar = memo(function CompanyAvatar({
     >
       {initials(company.name)}
     </span>
+  );
+
+  if (!src || failed) return letterAvatar;
+
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={src}
+      alt=""
+      loading="lazy"
+      width={size}
+      height={size}
+      onError={() => setFailed(true)}
+      className={cx(
+        "shrink-0 rounded-lg border border-ink-100 bg-white object-contain p-0.5",
+        className,
+      )}
+      style={{ width: size, height: size }}
+    />
   );
 });
 
@@ -79,10 +93,10 @@ export function JobTypeBadge({ type }: { type: string }) {
 
 export function HiringBadge({ count }: { count: number }) {
   return (
-    <span className="badge bg-green-50 text-green-700 ring-green-200">
+    <span className="badge bg-red-50 text-red-700 ring-red-200">
       <span className="relative flex h-1.5 w-1.5">
-        <span className="absolute inline-flex h-full w-full animate-pulse-dot rounded-full bg-green-500" />
-        <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-green-600" />
+        <span className="absolute inline-flex h-full w-full animate-pulse-dot rounded-full bg-red-500" />
+        <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-red-600" />
       </span>
       {count} open {count === 1 ? "role" : "roles"}
     </span>

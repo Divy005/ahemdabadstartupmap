@@ -9,6 +9,8 @@ import {
   MARKER_COLORS,
   SECTOR_HEX,
 } from "@/lib/constants";
+import { logoUrl } from "@/lib/logo";
+import { avatarColor, initials } from "@/lib/utils";
 import MapLegend from "./MapLegend";
 
 /** Cluster group is only typed loosely — the plugin augments Leaflet at runtime. */
@@ -55,8 +57,8 @@ function buildPopup(s: Startup, onOpen: (s: Startup) => void) {
       </span>
       ${
         open > 0
-          ? `<span style="font-size:11px;font-weight:500;padding:1px 7px;border-radius:5px;background:#F0FDF4;color:#15803D;border:1px solid #BBF7D0">
-               ${open} hiring
+          ? `<span style="font-size:11px;font-weight:500;padding:1px 7px;border-radius:5px;background:#FEF2F2;color:#B91C1C;border:1px solid #FECACA">
+               ${open} open ${open === 1 ? "role" : "roles"}
              </span>`
           : ""
       }
@@ -181,16 +183,31 @@ export default function MapView({
       const dashed = s.type !== "vc" && s.location.pinType === "area";
       const hiring = s.hiring && s.jobs.length > 0;
 
+      // Logo pin: the company mark sits inside a ring coloured by entity type
+      // and pin precision, with a red dot when there are open roles. The <img>
+      // swaps itself for a letter avatar if the logo 404s, so a missing logo
+      // never leaves a blank marker.
+      const src = logoUrl(s);
+      const accent = avatarColor(s);
+      const fallback = `<span class="asm-marker-letter" style="color:${accent};background:${accent}1f">${escapeHtml(
+        initials(s.name),
+      )}</span>`;
+
+      const inner = src
+        ? `<img class="asm-marker-img" src="${escapeHtml(src)}" alt="" loading="lazy"
+             onerror="this.closest('.asm-marker-pin').innerHTML=this.dataset.fb"
+             data-fb="${escapeHtml(fallback)}" />`
+        : fallback;
+
       const icon = L.divIcon({
         className: "asm-marker asm-marker-appear",
-        iconSize: [15, 15],
-        iconAnchor: [7.5, 7.5],
-        popupAnchor: [0, -10],
-        html: `<div class="asm-marker-dot${dashed ? " asm-marker-dot--area" : ""}${
-          hiring ? " asm-marker-hiring" : ""
-        }" style="background:${dashed ? "#FFFFFF" : color};border-color:${
-          dashed ? color : "#fff"
-        };position:relative"></div>`,
+        iconSize: [30, 30],
+        iconAnchor: [15, 15],
+        popupAnchor: [0, -17],
+        html:
+          `<div class="asm-marker-pin${dashed ? " asm-marker-pin--area" : ""}"` +
+          ` style="border-color:${color}">${inner}</div>` +
+          (hiring ? `<span class="asm-marker-hiring-dot"></span>` : ""),
       });
 
       const marker = L.marker([s.location.lat, s.location.lng], {

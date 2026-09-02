@@ -8,6 +8,8 @@ import JobCard from "./JobCard";
 import SearchBar from "./SearchBar";
 import { EmptyState } from "./Primitives";
 
+const JOBS_PAGE = 50;
+
 function TypeChip({
   label,
   count,
@@ -51,6 +53,8 @@ export default function JobsPanel({
   onOpenCompany: (companyId: string) => void;
 }) {
   const [filters, setFilters] = useState<JobFilters>(EMPTY_JOB_FILTERS);
+  // Paged for the same reason as the grid: the board can run to thousands.
+  const [shown, setShown] = useState(JOBS_PAGE);
   const panelRef = useRef<HTMLDivElement>(null);
   const restoreTo = useRef<HTMLElement | null>(null);
 
@@ -83,6 +87,9 @@ export default function JobsPanel({
   }, [jobs, filters]);
 
   const visible = useMemo(() => filterJobs(jobs, filters), [jobs, filters]);
+
+  // Re-filtering starts the paging over.
+  useEffect(() => setShown(JOBS_PAGE), [filters]);
 
   const sectors = useMemo(
     () => Array.from(new Set(jobs.map((j) => j.sector))).sort(),
@@ -232,15 +239,31 @@ export default function JobsPanel({
               body="Try a different job type, sector or area — or clear the search."
             />
           ) : (
-            <ul className="flex flex-col gap-2.5">
-              {visible.map((job) => (
-                <JobCard
-                  key={`${job.companyId}-${job.title}-${job.type}`}
-                  job={job}
-                  onOpenCompany={onOpenCompany}
-                />
-              ))}
-            </ul>
+            <>
+              <ul className="flex flex-col gap-2.5">
+                {visible.slice(0, shown).map((job) => (
+                  <JobCard
+                    key={`${job.companyId}-${job.title}-${job.type}`}
+                    job={job}
+                    onOpenCompany={onOpenCompany}
+                  />
+                ))}
+              </ul>
+              {visible.length > shown && (
+                <div className="mt-4 flex flex-col items-center gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setShown((n) => n + JOBS_PAGE)}
+                    className="h-10 rounded-full border border-ink-100 bg-white px-6 text-[13px] font-semibold text-ink-600 shadow-card hover:bg-ink-50"
+                  >
+                    Show {Math.min(JOBS_PAGE, visible.length - shown)} more
+                  </button>
+                  <p className="text-[12px] text-ink-300">
+                    Showing {shown} of {visible.length}
+                  </p>
+                </div>
+              )}
+            </>
           )}
 
           <p className="mt-5 rounded-lg bg-ink-50/70 px-3.5 py-3 text-[11.5px] leading-relaxed text-ink-400">

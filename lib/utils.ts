@@ -119,6 +119,7 @@ export function flattenJobs(all: Startup[]): JobListing[] {
         companyId: s.id,
         companyName: s.name,
         companyLogo: s.logo,
+        companyWebsite: s.website,
         sector: s.sector,
         area: s.location.area,
         stage: s.stage,

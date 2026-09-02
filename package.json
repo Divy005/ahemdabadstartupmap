@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "import": "node scripts/import-startups.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

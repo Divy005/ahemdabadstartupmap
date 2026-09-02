@@ -10,6 +10,9 @@ const ITEMS = [
   { color: MARKER_COLORS.vc, label: "VC firm / Incubator", dashed: false },
 ];
 
+// Ring colours read on the pin border; the disc itself carries the logo.
+
+
 export default function MapLegend() {
   // Collapsed by default on phones, where it would cover a third of the map.
   // Safe to read `window` here: the map (and so this) is client-only.
@@ -46,11 +49,8 @@ export default function MapLegend() {
               >
                 <span
                   aria-hidden="true"
-                  className="h-3 w-3 shrink-0 rounded-full"
-                  style={{
-                    backgroundColor: item.dashed ? "transparent" : item.color,
-                    border: `2px ${item.dashed ? "dashed" : "solid"} ${item.color}`,
-                  }}
+                  className="h-3.5 w-3.5 shrink-0 rounded-full bg-white"
+                  style={{ border: `2px ${item.dashed ? "dashed" : "solid"} ${item.color}` }}
                 />
                 {item.label}
               </li>
@@ -58,9 +58,9 @@ export default function MapLegend() {
             <li className="mt-1 flex items-center gap-2 border-t border-ink-50 pt-2 text-[12px] text-ink-500">
               <span
                 aria-hidden="true"
-                className="h-3 w-3 shrink-0 rounded-full border-2 border-white bg-green-500 ring-1 ring-green-600"
+                className="h-3.5 w-3.5 shrink-0 rounded-full border-2 border-white bg-red-600 ring-1 ring-red-700"
               />
-              Green dot = currently hiring
+              Red dot = has open roles
             </li>
           </ul>
         )}

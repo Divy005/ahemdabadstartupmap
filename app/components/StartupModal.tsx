@@ -183,7 +183,7 @@ export default function StartupModal({
                 id="modal-jobs"
                 className="flex items-center gap-2 text-[13px] font-semibold text-ink-700"
               >
-                <span className="h-1.5 w-1.5 rounded-full bg-green-500" aria-hidden="true" />
+                <span className="h-1.5 w-1.5 rounded-full bg-red-500" aria-hidden="true" />
                 {openRoles.length} open {openRoles.length === 1 ? "position" : "positions"}
               </h3>
               <ul className="mt-2.5 divide-y divide-ink-50 overflow-hidden rounded-lg border border-ink-100">

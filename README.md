@@ -71,6 +71,67 @@ lib/utils.ts            filtering, sorting, URL <-> state, formatting
 types/index.ts          shared interfaces
 ```
 
+## Bulk import (getting to 1,000+ entries)
+
+`data/startups.json` ships with a small hand-checked seed. To scale it up, get a
+directory export and run it through the importer:
+
+```bash
+npm run import -- path/to/export.csv --merge
+```
+
+Sources that publish Ahmedabad/Gujarat startup lists you can export or scrape:
+
+- **Startup India (DPIIT)** — `startupindia.gov.in`, filter State=Gujarat,
+  City=Ahmedabad, Role=Startup. The official recognised-startup register.
+- **i-Hub Gujarat** — `ihubgujarat.in/startupdirectory`, the state government's
+  own directory.
+- **StartupBlink** — ~900 Ahmedabad entries.
+- Any Tracxn / Crunchbase / LinkedIn export, or your own spreadsheet.
+
+The importer accepts CSV or JSON and is tolerant about column names — it maps
+`Company Name`, `startup_name`, `entityName` and friends onto the schema (see
+`FIELD_ALIASES` in the script). What it does per row:
+
+| Step | Behaviour |
+| --- | --- |
+| Sector | Uses the input column when it matches a known sector, else infers from the description via keyword rules. |
+| Stage | Same: explicit value wins, else inferred from funding/description text. |
+| Area | Matches the address against the 24 known areas plus ~40 aliases (`Isanpur` → Maninagar, `Sola` → Science City). Sub-localities win over their parent, so "GIFT City, Gandhinagar" resolves to GIFT City. |
+| Coordinates | With `--geocode`, calls OpenStreetMap Nominatim (cached on disk, 1 req/sec) and tags the pin `precise`. Otherwise — or on a miss, or a hit outside Ahmedabad's bounding box — falls back to the area centroid with a deterministic sub-km offset and tags the pin `area`. |
+| Dedupe | By website domain first, then normalised name. |
+| Validation | Rows without a usable name or website are dropped and reported. |
+
+Options:
+
+```
+--geocode           resolve real addresses through Nominatim
+--email you@x.com   contact address for Nominatim (required with --geocode)
+--limit N           only process the first N rows
+--merge             add to the existing dataset instead of replacing it
+--out PATH          output file (default data/startups.json)
+--dry-run           report only, write nothing
+```
+
+Geocoding 1,000 rows takes roughly 20 minutes at Nominatim's 1 req/sec policy
+limit. The cache in `.geocode-cache.json` means re-runs are instant, so start
+with `--dry-run`, check the reported sector/area distribution, then commit to a
+full geocoding pass.
+
+A dry run first is worth it:
+
+```bash
+npm run import -- export.csv --dry-run
+```
+
+### Logos
+
+Logos are not bundled. `lib/logo.ts` resolves them at render time from each
+company's own domain via Clearbit, and falls back to a sector-tinted letter
+avatar when there's no match — so a 1,000-entry dataset needs no logo files and
+no broken images. An explicit `"logo": "/logos/name.png"` in the dataset always
+wins if you'd rather self-host one.
+
 ## Editing the data
 
 Everything lives in `data/startups.json`. One object per company:

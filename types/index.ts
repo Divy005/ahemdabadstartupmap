@@ -44,6 +44,7 @@ export interface JobListing extends Job {
   companyId: string;
   companyName: string;
   companyLogo?: string;
+  companyWebsite: string;
   sector: string;
   area: string;
   stage: string;

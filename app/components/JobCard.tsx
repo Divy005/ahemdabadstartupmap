@@ -14,7 +14,12 @@ function JobCard({
   return (
     <li className="card flex items-center gap-3.5 p-3.5 transition-shadow hover:shadow-card-hover">
       <CompanyAvatar
-        company={{ name: job.companyName, sector: job.sector, logo: job.companyLogo }}
+        company={{
+          name: job.companyName,
+          sector: job.sector,
+          logo: job.companyLogo,
+          website: job.companyWebsite,
+        }}
         size={40}
       />
 

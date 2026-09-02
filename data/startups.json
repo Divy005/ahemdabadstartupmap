@@ -1,0 +1,2482 @@
+[
+  {
+    "id": "aic-pdeu",
+    "name": "AIC-PDEU Incubation Centre",
+    "description": "Atal Incubation Centre at Pandit Deendayal Energy University, focused on energy, cleantech and sustainability ventures with lab access and seed support.",
+    "sector": "CleanTech",
+    "stage": "Pre-seed",
+    "type": "vc",
+    "founded": 2018,
+    "founders": [],
+    "funding": "Atal Innovation Mission (NITI Aayog) supported",
+    "website": "https://www.aicpdeu.com",
+    "location": {
+      "area": "Gandhinagar",
+      "address": "PDEU Campus, Raisan, Gandhinagar, Gujarat",
+      "lat": 23.1543,
+      "lng": 72.6653,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Incubation Manager",
+        "type": "full-time",
+        "link": "https://www.aicpdeu.com",
+        "team": "Programmes"
+      }
+    ],
+    "tags": [
+      "atal-incubation",
+      "cleantech",
+      "energy"
+    ]
+  },
+  {
+    "id": "arvind-internet",
+    "name": "Arvind Internet (NNNOW)",
+    "description": "Digital commerce arm of the Arvind group, running the NNNOW omnichannel platform and in-house retail tech for the group's apparel brands.",
+    "sector": "E-commerce",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2015,
+    "founders": [
+      "Kulin Lalbhai"
+    ],
+    "funding": "Funded by Arvind Limited",
+    "website": "https://www.nnnow.com",
+    "location": {
+      "area": "Other",
+      "address": "Naroda Road, Ahmedabad, Gujarat",
+      "lat": 23.0592,
+      "lng": 72.6497,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Full Stack Developer",
+        "type": "full-time",
+        "link": "https://www.nnnow.com",
+        "team": "Engineering"
+      },
+      {
+        "title": "Merchandising Intern",
+        "type": "internship",
+        "link": "https://www.nnnow.com",
+        "team": "Category"
+      }
+    ],
+    "tags": [
+      "omnichannel",
+      "retail-tech",
+      "fashion"
+    ]
+  },
+  {
+    "id": "aubergine",
+    "name": "Aubergine Solutions",
+    "description": "Product design and engineering studio known for UX-led work with venture-backed startups in India and the US.",
+    "sector": "IT Services",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2012,
+    "founders": [
+      "Rutvik Bhatt"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.auberginesolutions.com",
+    "location": {
+      "area": "Satellite",
+      "address": "Titanium City Center, Satellite, Ahmedabad, Gujarat",
+      "lat": 23.0207,
+      "lng": 72.5238,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Product Designer",
+        "type": "full-time",
+        "link": "https://www.auberginesolutions.com/careers/",
+        "team": "Design"
+      },
+      {
+        "title": "Frontend Engineer",
+        "type": "full-time",
+        "link": "https://www.auberginesolutions.com/careers/",
+        "team": "Engineering"
+      }
+    ],
+    "tags": [
+      "ux-design",
+      "product-studio"
+    ]
+  },
+  {
+    "id": "azilen",
+    "name": "Azilen Technologies",
+    "description": "Enterprise product engineering company that co-builds SaaS platforms with founders and product teams, with a focus on AI and data products.",
+    "sector": "IT Services",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2009,
+    "founders": [
+      "Sandip Bhatt"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.azilen.com",
+    "location": {
+      "area": "Prahlad Nagar",
+      "address": "Prahlad Nagar, Ahmedabad, Gujarat",
+      "lat": 23.0088,
+      "lng": 72.5063,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "AI/ML Engineer",
+        "type": "full-time",
+        "link": "https://www.azilen.com/careers/",
+        "team": "AI"
+      },
+      {
+        "title": "Java Backend Engineer",
+        "type": "full-time",
+        "link": "https://www.azilen.com/careers/",
+        "team": "Engineering"
+      }
+    ],
+    "tags": [
+      "product-engineering",
+      "ai",
+      "consulting"
+    ]
+  },
+  {
+    "id": "bacancy",
+    "name": "Bacancy Technology",
+    "description": "Software development company offering dedicated engineering teams across web, mobile, AI and IoT for clients in North America and Europe.",
+    "sector": "IT Services",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2011,
+    "founders": [
+      "Chandresh Patel"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.bacancytechnology.com",
+    "location": {
+      "area": "SG Highway",
+      "address": "SG Highway, Ahmedabad, Gujarat",
+      "lat": 23.0428,
+      "lng": 72.5033,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Ruby on Rails Developer",
+        "type": "full-time",
+        "link": "https://www.bacancytechnology.com/careers",
+        "team": "Engineering"
+      },
+      {
+        "title": "Angular Developer",
+        "type": "full-time",
+        "link": "https://www.bacancytechnology.com/careers",
+        "team": "Engineering"
+      },
+      {
+        "title": "Trainee Software Engineer",
+        "type": "internship",
+        "link": "https://www.bacancytechnology.com/careers",
+        "team": "Engineering"
+      }
+    ],
+    "tags": [
+      "staff-augmentation",
+      "web-development",
+      "consulting"
+    ]
+  },
+  {
+    "id": "beardo",
+    "name": "Beardo",
+    "description": "Men's grooming D2C brand built around beard care, later expanding into skincare and fragrance. Acquired in full by Marico after an initial minority investment.",
+    "sector": "D2C",
+    "stage": "Acquired",
+    "type": "startup",
+    "founded": 2015,
+    "founders": [
+      "Ashutosh Valani",
+      "Priyank Shah"
+    ],
+    "funding": "Acquired by Marico",
+    "website": "https://beardo.in",
+    "location": {
+      "area": "Prahlad Nagar",
+      "address": "Prahlad Nagar, Ahmedabad, Gujarat",
+      "lat": 23.0112,
+      "lng": 72.5069,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Performance Marketing Manager",
+        "type": "full-time",
+        "link": "https://beardo.in",
+        "team": "Growth"
+      },
+      {
+        "title": "Content & Social Media Intern",
+        "type": "internship",
+        "link": "https://beardo.in",
+        "team": "Brand"
+      }
+    ],
+    "tags": [
+      "mens-grooming",
+      "consumer-brand",
+      "ecommerce"
+    ],
+    "featured": true
+  },
+  {
+    "id": "claris-lifesciences",
+    "name": "Claris Lifesciences",
+    "description": "Sterile injectables maker built in Ahmedabad and acquired by Baxter International in 2017; the site continues as a large injectables manufacturing hub.",
+    "sector": "HealthTech",
+    "stage": "Acquired",
+    "type": "startup",
+    "founded": 1994,
+    "founders": [
+      "Arjun Handa"
+    ],
+    "funding": "Acquired by Baxter International for ~$625M",
+    "website": "https://www.baxter.in",
+    "location": {
+      "area": "Sanand",
+      "address": "Sarkhej-Bavla Highway, Chacharwadi Vasna, Sanand, Ahmedabad district",
+      "lat": 22.9531,
+      "lng": 72.4162,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": [
+      "injectables",
+      "pharma",
+      "acquired"
+    ]
+  },
+  {
+    "id": "concord-biotech",
+    "name": "Concord Biotech",
+    "description": "Fermentation-based API manufacturer specialising in immunosuppressants, oncology and anti-infective molecules, listed on the Indian exchanges in 2023.",
+    "sector": "HealthTech",
+    "stage": "Public",
+    "type": "startup",
+    "founded": 1984,
+    "founders": [
+      "Sudhir Vaid"
+    ],
+    "funding": "Listed on NSE and BSE; previously backed by Quadria Capital",
+    "website": "https://www.concordbiotech.com",
+    "location": {
+      "area": "Other",
+      "address": "Trasad Road, Dholka, Ahmedabad district, Gujarat",
+      "lat": 22.7274,
+      "lng": 72.4487,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Fermentation Scientist",
+        "type": "full-time",
+        "link": "https://www.concordbiotech.com",
+        "team": "R&D"
+      },
+      {
+        "title": "QC Chemist",
+        "type": "full-time",
+        "link": "https://www.concordbiotech.com",
+        "team": "Quality"
+      }
+    ],
+    "tags": [
+      "api",
+      "fermentation",
+      "biotech"
+    ]
+  },
+  {
+    "id": "cygnet-one",
+    "name": "Cygnet.One",
+    "description": "Enterprise software and tax-technology company known for GST compliance, e-invoicing and intelligent document processing platforms used by large Indian enterprises.",
+    "sector": "SaaS",
+    "stage": "Series A",
+    "type": "startup",
+    "founded": 2000,
+    "founders": [
+      "Niraj Hutheesing"
+    ],
+    "funding": "Growth investment from Rajesh Exports and others",
+    "website": "https://www.cygnet.one",
+    "location": {
+      "area": "SG Highway",
+      "address": "SG Highway, Ahmedabad, Gujarat",
+      "lat": 23.0452,
+      "lng": 72.5079,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": ".NET Developer",
+        "type": "full-time",
+        "link": "https://www.cygnet.one/careers/",
+        "team": "Engineering"
+      },
+      {
+        "title": "Business Analyst — Tax Tech",
+        "type": "full-time",
+        "link": "https://www.cygnet.one/careers/",
+        "team": "Product"
+      },
+      {
+        "title": "Software Engineering Intern",
+        "type": "internship",
+        "link": "https://www.cygnet.one/careers/",
+        "team": "Engineering"
+      }
+    ],
+    "tags": [
+      "taxtech",
+      "compliance",
+      "enterprise-software"
+    ]
+  },
+  {
+    "id": "devx",
+    "name": "DevX",
+    "description": "Coworking and workspace company founded in Ahmedabad that also runs a startup accelerator and an early-stage venture arm for portfolio founders.",
+    "sector": "Other",
+    "stage": "Seed",
+    "type": "vc",
+    "founded": 2017,
+    "founders": [
+      "Umesh Uttamchandani",
+      "Parth Shah",
+      "Rushit Shah"
+    ],
+    "funding": "Backed by angel and family-office investors",
+    "website": "https://www.devx.work",
+    "location": {
+      "area": "Bodakdev",
+      "address": "Sindhu Bhavan Road, Bodakdev, Ahmedabad, Gujarat",
+      "lat": 23.0466,
+      "lng": 72.5041,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Community Manager",
+        "type": "full-time",
+        "link": "https://www.devx.work",
+        "team": "Community"
+      },
+      {
+        "title": "Growth Intern",
+        "type": "internship",
+        "link": "https://www.devx.work",
+        "team": "Growth"
+      }
+    ],
+    "tags": [
+      "coworking",
+      "accelerator",
+      "workspace"
+    ]
+  },
+  {
+    "id": "echai-ventures",
+    "name": "eChai Ventures",
+    "description": "Startup community and early-stage network born in Ahmedabad, running founder meetups across Indian cities and connecting founders with operators and angels.",
+    "sector": "Other",
+    "stage": "Pre-seed",
+    "type": "vc",
+    "founded": 2007,
+    "founders": [
+      "Jatin Chaudhary"
+    ],
+    "funding": "Community-led network",
+    "website": "https://www.echai.ventures",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.0225,
+      "lng": 72.5714,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": [
+      "community",
+      "angel-network",
+      "meetups"
+    ]
+  },
+  {
+    "id": "ecolibrium",
+    "name": "Ecolibrium Energy",
+    "description": "Industrial IoT and energy analytics platform that helps factories and commercial buildings monitor consumption and cut energy costs. Incubated at CIIE, IIM Ahmedabad.",
+    "sector": "CleanTech",
+    "stage": "Series A",
+    "type": "startup",
+    "founded": 2009,
+    "founders": [
+      "Chintan Soni",
+      "Harit Soni"
+    ],
+    "funding": "Backed by Infuse Ventures and Emertec",
+    "website": "https://ecolibriumenergy.com",
+    "location": {
+      "area": "IIM Road",
+      "address": "Near IIM Ahmedabad, Vastrapur, Ahmedabad, Gujarat",
+      "lat": 23.0347,
+      "lng": 72.5361,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "IoT Platform Engineer",
+        "type": "full-time",
+        "link": "https://ecolibriumenergy.com",
+        "team": "Engineering"
+      },
+      {
+        "title": "Energy Analyst",
+        "type": "full-time",
+        "link": "https://ecolibriumenergy.com",
+        "team": "Analytics"
+      }
+    ],
+    "tags": [
+      "energy-analytics",
+      "industrial-iot",
+      "sustainability"
+    ]
+  },
+  {
+    "id": "ecosmob",
+    "name": "Ecosmob Technologies",
+    "description": "VoIP and telecom software company building softswitches, class-4/5 platforms, WebRTC products and AI-enabled contact centre tooling.",
+    "sector": "SaaS",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2010,
+    "founders": [
+      "Bhavin Shah"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.ecosmob.com",
+    "location": {
+      "area": "Bodakdev",
+      "address": "Sindhu Bhavan Road, Bodakdev, Ahmedabad, Gujarat",
+      "lat": 23.0451,
+      "lng": 72.5012,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "VoIP Engineer (FreeSWITCH/Asterisk)",
+        "type": "full-time",
+        "link": "https://www.ecosmob.com/careers/",
+        "team": "Telecom"
+      },
+      {
+        "title": "Node.js Developer",
+        "type": "full-time",
+        "link": "https://www.ecosmob.com/careers/",
+        "team": "Engineering"
+      }
+    ],
+    "tags": [
+      "voip",
+      "telecom",
+      "webrtc"
+    ]
+  },
+  {
+    "id": "einfochips",
+    "name": "eInfochips",
+    "description": "Product engineering services company working across silicon, embedded systems and connected devices. Acquired by Arrow Electronics in 2018.",
+    "sector": "DeepTech",
+    "stage": "Acquired",
+    "type": "startup",
+    "founded": 1994,
+    "founders": [
+      "Pratul Shroff"
+    ],
+    "funding": "Acquired by Arrow Electronics for ~$280M",
+    "website": "https://www.einfochips.com",
+    "location": {
+      "area": "Gurukul",
+      "address": "Gurukul Road, Memnagar, Ahmedabad, Gujarat",
+      "lat": 23.0479,
+      "lng": 72.5397,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Embedded Firmware Engineer",
+        "type": "full-time",
+        "link": "https://www.einfochips.com/careers/",
+        "team": "Embedded"
+      },
+      {
+        "title": "VLSI Design Engineer",
+        "type": "full-time",
+        "link": "https://www.einfochips.com/careers/",
+        "team": "Silicon"
+      },
+      {
+        "title": "Graduate Engineer Trainee",
+        "type": "internship",
+        "link": "https://www.einfochips.com/careers/",
+        "team": "Engineering"
+      }
+    ],
+    "tags": [
+      "semiconductor",
+      "embedded",
+      "iot"
+    ]
+  },
+  {
+    "id": "elsner",
+    "name": "Elsner Technologies",
+    "description": "Web development and e-commerce agency specialising in Shopify, Magento and WordPress builds plus custom marketplace platforms.",
+    "sector": "E-commerce",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2006,
+    "founders": [
+      "Harshal Shah"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.elsner.com",
+    "location": {
+      "area": "CG Road",
+      "address": "CG Road, Navrangpura, Ahmedabad, Gujarat",
+      "lat": 23.0288,
+      "lng": 72.5599,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Shopify Developer",
+        "type": "full-time",
+        "link": "https://www.elsner.com/careers/",
+        "team": "Commerce"
+      },
+      {
+        "title": "WordPress Developer",
+        "type": "full-time",
+        "link": "https://www.elsner.com/careers/",
+        "team": "Web"
+      }
+    ],
+    "tags": [
+      "ecommerce",
+      "shopify",
+      "web-agency"
+    ]
+  },
+  {
+    "id": "eris-lifesciences",
+    "name": "Eris Lifesciences",
+    "description": "India-focused branded formulations company built around chronic therapies such as cardio-metabolic and diabetes care, listed since 2017.",
+    "sector": "HealthTech",
+    "stage": "Public",
+    "type": "startup",
+    "founded": 2007,
+    "founders": [
+      "Amit Bakshi"
+    ],
+    "funding": "Listed on NSE and BSE",
+    "website": "https://www.eris.co.in",
+    "location": {
+      "area": "Prahlad Nagar",
+      "address": "Commerce House IV, Prahlad Nagar, Ahmedabad, Gujarat",
+      "lat": 23.0119,
+      "lng": 72.5093,
+      "pinType": "precise"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Medical Affairs Manager",
+        "type": "full-time",
+        "link": "https://www.eris.co.in",
+        "team": "Medical"
+      },
+      {
+        "title": "Brand Manager",
+        "type": "full-time",
+        "link": "https://www.eris.co.in",
+        "team": "Marketing"
+      }
+    ],
+    "tags": [
+      "pharma",
+      "chronic-care"
+    ]
+  },
+  {
+    "id": "gian",
+    "name": "GIAN",
+    "description": "Grassroots Innovation Augmentation Network — an Ahmedabad institution that incubates and commercialises grassroots innovations from across India.",
+    "sector": "Other",
+    "stage": "Pre-seed",
+    "type": "vc",
+    "founded": 1997,
+    "founders": [
+      "Anil Gupta"
+    ],
+    "funding": "Grant and government supported",
+    "website": "https://www.gian.org",
+    "location": {
+      "area": "Vastrapur",
+      "address": "Vastrapur, Ahmedabad, Gujarat",
+      "lat": 23.0389,
+      "lng": 72.5266,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": [
+      "grassroots-innovation",
+      "incubator",
+      "social-impact"
+    ]
+  },
+  {
+    "id": "gusec",
+    "name": "GUSEC",
+    "description": "Gujarat University Startup and Entrepreneurship Council — a university-run incubator offering grants, mentorship and workspace to student and early-stage founders.",
+    "sector": "Other",
+    "stage": "Pre-seed",
+    "type": "vc",
+    "founded": 2017,
+    "founders": [],
+    "funding": "Government and university-backed grants",
+    "website": "https://gusec.edu.in",
+    "location": {
+      "area": "University Area",
+      "address": "Gujarat University Campus, Navrangpura, Ahmedabad, Gujarat",
+      "lat": 23.0371,
+      "lng": 72.5461,
+      "pinType": "precise"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Incubation Associate",
+        "type": "full-time",
+        "link": "https://gusec.edu.in",
+        "team": "Programmes"
+      },
+      {
+        "title": "Community Intern",
+        "type": "internship",
+        "link": "https://gusec.edu.in",
+        "team": "Community"
+      }
+    ],
+    "tags": [
+      "incubator",
+      "university",
+      "student-startups"
+    ]
+  },
+  {
+    "id": "gvfl",
+    "name": "GVFL Limited",
+    "description": "One of India's earliest venture capital firms, set up in Gujarat in 1990. Invests in early and growth-stage companies across technology, manufacturing and healthcare.",
+    "sector": "Other",
+    "stage": "Series A",
+    "type": "vc",
+    "founded": 1990,
+    "founders": [],
+    "funding": "Multiple funds under management",
+    "website": "https://www.gvfl.com",
+    "location": {
+      "area": "Ashram Road",
+      "address": "Premchand House Annexe, Ashram Road, Ahmedabad, Gujarat",
+      "lat": 23.0273,
+      "lng": 72.5715,
+      "pinType": "area"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": [
+      "venture-capital",
+      "growth-capital"
+    ],
+    "featured": true
+  },
+  {
+    "id": "havmor",
+    "name": "Havmor Ice Cream",
+    "description": "Ahmedabad-born ice cream brand with a large western-India retail and parlour network, acquired by South Korea's Lotte Confectionery in 2017.",
+    "sector": "D2C",
+    "stage": "Acquired",
+    "type": "startup",
+    "founded": 1944,
+    "founders": [
+      "Satish Chona"
+    ],
+    "funding": "Acquired by Lotte for ~₹1,020 crore",
+    "website": "https://www.havmor.com",
+    "location": {
+      "area": "Navrangpura",
+      "address": "Navrangpura, Ahmedabad, Gujarat",
+      "lat": 23.0344,
+      "lng": 72.5629,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Area Sales Manager",
+        "type": "full-time",
+        "link": "https://www.havmor.com",
+        "team": "Sales"
+      }
+    ],
+    "tags": [
+      "fmcg",
+      "ice-cream",
+      "acquired"
+    ]
+  },
+  {
+    "id": "hidden-brains",
+    "name": "Hidden Brains InfoTech",
+    "description": "Enterprise software and mobility company delivering ERP, cloud and application development projects for clients across 100+ countries.",
+    "sector": "IT Services",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2003,
+    "founders": [
+      "Chirag Shivalker"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.hiddenbrains.com",
+    "location": {
+      "area": "SG Highway",
+      "address": "Nr Vaishnodevi Circle, SG Highway, Ahmedabad, Gujarat",
+      "lat": 23.0958,
+      "lng": 72.5341,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "PHP / Laravel Developer",
+        "type": "full-time",
+        "link": "https://www.hiddenbrains.com/careers.html",
+        "team": "Engineering"
+      },
+      {
+        "title": "iOS Developer",
+        "type": "full-time",
+        "link": "https://www.hiddenbrains.com/careers.html",
+        "team": "Mobile"
+      }
+    ],
+    "tags": [
+      "enterprise-software",
+      "mobility",
+      "consulting"
+    ]
+  },
+  {
+    "id": "hubilo",
+    "name": "Hubilo",
+    "description": "Virtual and hybrid events platform for webinars, conferences and field marketing. Founded in Ahmedabad before scaling to a global customer base.",
+    "sector": "SaaS",
+    "stage": "Series B",
+    "type": "startup",
+    "founded": 2015,
+    "founders": [
+      "Vaibhav Jain",
+      "Mayank Agarwal"
+    ],
+    "funding": "$150M+ raised, led by Alkeon Capital",
+    "website": "https://www.hubilo.com",
+    "location": {
+      "area": "Prahlad Nagar",
+      "address": "Prahlad Nagar, Ahmedabad, Gujarat",
+      "lat": 23.0093,
+      "lng": 72.5111,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Full Stack Engineer",
+        "type": "full-time",
+        "link": "https://www.hubilo.com/careers",
+        "team": "Engineering"
+      },
+      {
+        "title": "Customer Success Manager",
+        "type": "full-time",
+        "link": "https://www.hubilo.com/careers",
+        "team": "CS"
+      },
+      {
+        "title": "QA Automation Intern",
+        "type": "internship",
+        "link": "https://www.hubilo.com/careers",
+        "team": "Engineering"
+      }
+    ],
+    "tags": [
+      "event-tech",
+      "b2b-saas",
+      "martech"
+    ],
+    "featured": true
+  },
+  {
+    "id": "ihub-gujarat",
+    "name": "i-Hub Gujarat",
+    "description": "The Gujarat government's student startup and innovation hub, providing seed grants, prototyping support and mentoring to founders across the state.",
+    "sector": "Other",
+    "stage": "Pre-seed",
+    "type": "vc",
+    "founded": 2020,
+    "founders": [],
+    "funding": "Government of Gujarat funded",
+    "website": "https://www.ihubgujarat.in",
+    "location": {
+      "area": "Gandhinagar",
+      "address": "PDEU Road, Raisan, Gandhinagar, Gujarat",
+      "lat": 23.1519,
+      "lng": 72.6624,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Startup Programme Executive",
+        "type": "full-time",
+        "link": "https://www.ihubgujarat.in",
+        "team": "Programmes"
+      }
+    ],
+    "tags": [
+      "government",
+      "incubator",
+      "grants"
+    ]
+  },
+  {
+    "id": "icreate",
+    "name": "iCreate",
+    "description": "International Centre for Entrepreneurship and Technology — an independent, government-supported incubator near Ahmedabad running deeptech, mobility and agritech cohorts on a large residential campus.",
+    "sector": "Other",
+    "stage": "Pre-seed",
+    "type": "vc",
+    "founded": 2012,
+    "founders": [],
+    "funding": "Supported by Government of Gujarat and industry partners",
+    "website": "https://www.icreate.org.in",
+    "location": {
+      "area": "Other",
+      "address": "Deo Dholakia Campus, Sarkhej-Bavla Highway, Bavla, Ahmedabad district",
+      "lat": 22.9182,
+      "lng": 72.3746,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Programme Manager — Deeptech",
+        "type": "full-time",
+        "link": "https://www.icreate.org.in",
+        "team": "Programmes"
+      },
+      {
+        "title": "Prototyping Lab Engineer",
+        "type": "full-time",
+        "link": "https://www.icreate.org.in",
+        "team": "Labs"
+      }
+    ],
+    "tags": [
+      "incubator",
+      "deeptech",
+      "campus"
+    ],
+    "featured": true
+  },
+  {
+    "id": "iima-ventures",
+    "name": "IIMA Ventures (formerly CIIE.CO)",
+    "description": "The incubation, acceleration and early-stage investment arm of IIM Ahmedabad. Runs sector programmes across fintech inclusion, climate and deeptech and manages several early-stage funds.",
+    "sector": "Other",
+    "stage": "Seed",
+    "type": "vc",
+    "founded": 2002,
+    "founders": [],
+    "funding": "Manages multiple early-stage funds including Bharat Inclusion Seed Fund",
+    "website": "https://iimaventures.com",
+    "location": {
+      "area": "IIM Road",
+      "address": "IIM Ahmedabad New Campus, Vastrapur, Ahmedabad, Gujarat",
+      "lat": 23.0333,
+      "lng": 72.5297,
+      "pinType": "precise"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Investment Associate",
+        "type": "full-time",
+        "link": "https://iimaventures.com",
+        "team": "Investments"
+      },
+      {
+        "title": "Programme Manager — Incubation",
+        "type": "full-time",
+        "link": "https://iimaventures.com",
+        "team": "Programmes"
+      },
+      {
+        "title": "Research Intern",
+        "type": "internship",
+        "link": "https://iimaventures.com",
+        "team": "Research"
+      }
+    ],
+    "tags": [
+      "incubator",
+      "accelerator",
+      "seed-fund"
+    ],
+    "featured": true
+  },
+  {
+    "id": "infibeam-avenues",
+    "name": "Infibeam Avenues",
+    "description": "Listed digital payments and e-commerce infrastructure company, best known for the CCAvenue payment gateway and enterprise commerce software.",
+    "sector": "Fintech",
+    "stage": "Public",
+    "type": "startup",
+    "founded": 2007,
+    "founders": [
+      "Vishal Mehta"
+    ],
+    "funding": "Listed on NSE and BSE",
+    "website": "https://ia.ooo",
+    "location": {
+      "area": "GIFT City",
+      "address": "GIFT Two Building, Block 56, Zone 5, GIFT City, Gandhinagar",
+      "lat": 23.1602,
+      "lng": 72.6844,
+      "pinType": "precise"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Payments Backend Engineer",
+        "type": "full-time",
+        "link": "https://ia.ooo",
+        "team": "Engineering"
+      },
+      {
+        "title": "Information Security Analyst",
+        "type": "full-time",
+        "link": "https://ia.ooo",
+        "team": "Security"
+      },
+      {
+        "title": "Finance Intern",
+        "type": "internship",
+        "link": "https://ia.ooo",
+        "team": "Finance"
+      }
+    ],
+    "tags": [
+      "payments",
+      "ccavenue",
+      "gift-city"
+    ],
+    "featured": true
+  },
+  {
+    "id": "intas-pharmaceuticals",
+    "name": "Intas Pharmaceuticals",
+    "description": "Privately held pharmaceutical major with a large global generics and biosimilars footprint through its Accord Healthcare subsidiary.",
+    "sector": "HealthTech",
+    "stage": "Series C+",
+    "type": "startup",
+    "founded": 1976,
+    "founders": [
+      "Hasmukh Chudgar"
+    ],
+    "funding": "PE-backed (ChrysCapital, Temasek)",
+    "website": "https://www.intaspharma.com",
+    "location": {
+      "area": "Thaltej",
+      "address": "Corporate House, Nr Sola Bridge, SG Highway, Thaltej, Ahmedabad",
+      "lat": 23.0552,
+      "lng": 72.5241,
+      "pinType": "precise"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Biosimilars Process Scientist",
+        "type": "full-time",
+        "link": "https://www.intaspharma.com/careers",
+        "team": "Biotech"
+      },
+      {
+        "title": "Pharmacovigilance Executive",
+        "type": "full-time",
+        "link": "https://www.intaspharma.com/careers",
+        "team": "Safety"
+      }
+    ],
+    "tags": [
+      "pharma",
+      "biosimilars",
+      "accord"
+    ]
+  },
+  {
+    "id": "kody-technolab",
+    "name": "Kody Technolab",
+    "description": "App and robotics company building delivery and service robots alongside a mobile app development practice.",
+    "sector": "DeepTech",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2017,
+    "founders": [
+      "Sanjay Kidecha",
+      "Manish Patel"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://kodytechnolab.com",
+    "location": {
+      "area": "Memnagar",
+      "address": "Memnagar, Ahmedabad, Gujarat",
+      "lat": 23.0541,
+      "lng": 72.5411,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Robotics Software Engineer (ROS)",
+        "type": "full-time",
+        "link": "https://kodytechnolab.com/career/",
+        "team": "Robotics"
+      },
+      {
+        "title": "Flutter Developer",
+        "type": "full-time",
+        "link": "https://kodytechnolab.com/career/",
+        "team": "Mobile"
+      }
+    ],
+    "tags": [
+      "robotics",
+      "app-development"
+    ]
+  },
+  {
+    "id": "krish-technolabs",
+    "name": "Krish TechnoLabs",
+    "description": "Digital commerce consultancy that designs, builds and runs enterprise e-commerce storefronts on Adobe Commerce, Shopify Plus and headless stacks.",
+    "sector": "E-commerce",
+    "stage": "Acquired",
+    "type": "startup",
+    "founded": 2007,
+    "founders": [
+      "Kalpesh Desai"
+    ],
+    "funding": "Acquired by TA Digital",
+    "website": "https://www.krishtechnolabs.com",
+    "location": {
+      "area": "Prahlad Nagar",
+      "address": "Prahlad Nagar, Ahmedabad, Gujarat",
+      "lat": 23.0117,
+      "lng": 72.5024,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Adobe Commerce Developer",
+        "type": "full-time",
+        "link": "https://www.krishtechnolabs.com",
+        "team": "Commerce"
+      },
+      {
+        "title": "Solution Architect",
+        "type": "full-time",
+        "link": "https://www.krishtechnolabs.com",
+        "team": "Architecture"
+      }
+    ],
+    "tags": [
+      "digital-commerce",
+      "magento",
+      "consulting"
+    ]
+  },
+  {
+    "id": "legalwiz",
+    "name": "LegalWiz.in",
+    "description": "Online legal and compliance services platform handling company incorporation, trademark filings, GST and annual compliance for small businesses and founders.",
+    "sector": "SaaS",
+    "stage": "Seed",
+    "type": "startup",
+    "founded": 2016,
+    "founders": [
+      "Shrijay Sheth"
+    ],
+    "funding": "Seed funded",
+    "website": "https://www.legalwiz.in",
+    "location": {
+      "area": "Navrangpura",
+      "address": "Navrangpura, Ahmedabad, Gujarat",
+      "lat": 23.0371,
+      "lng": 72.5614,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Company Secretary — Compliance",
+        "type": "full-time",
+        "link": "https://www.legalwiz.in",
+        "team": "Operations"
+      },
+      {
+        "title": "Legal Research Intern",
+        "type": "internship",
+        "link": "https://www.legalwiz.in",
+        "team": "Legal"
+      }
+    ],
+    "tags": [
+      "legaltech",
+      "compliance",
+      "smb"
+    ]
+  },
+  {
+    "id": "lendingkart",
+    "name": "Lendingkart",
+    "description": "Digital lending platform that underwrites and disburses working-capital loans to small businesses using alternative data, with no physical branch visits.",
+    "sector": "Fintech",
+    "stage": "Series D",
+    "type": "startup",
+    "founded": 2014,
+    "founders": [
+      "Harshvardhan Lunia",
+      "Mukul Sachan"
+    ],
+    "funding": "$250M+ raised across equity and debt",
+    "website": "https://www.lendingkart.com",
+    "location": {
+      "area": "SG Highway",
+      "address": "Off SG Highway, Ahmedabad, Gujarat",
+      "lat": 23.0298,
+      "lng": 72.5091,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Data Scientist — Credit Risk",
+        "type": "full-time",
+        "link": "https://www.lendingkart.com/careers/",
+        "team": "Risk"
+      },
+      {
+        "title": "Android Engineer",
+        "type": "full-time",
+        "link": "https://www.lendingkart.com/careers/",
+        "team": "Engineering"
+      },
+      {
+        "title": "Credit Analyst Intern",
+        "type": "internship",
+        "link": "https://www.lendingkart.com/careers/",
+        "team": "Credit"
+      }
+    ],
+    "tags": [
+      "lending",
+      "sme-credit",
+      "nbfc"
+    ],
+    "featured": true
+  },
+  {
+    "id": "matter",
+    "name": "Matter",
+    "description": "Electric mobility and energy company that built India's first geared electric motorcycle, the Matter AERA, along with in-house battery packs and drivetrains.",
+    "sector": "DeepTech",
+    "stage": "Series B",
+    "type": "startup",
+    "founded": 2019,
+    "founders": [
+      "Mohal Lalbhai"
+    ],
+    "funding": "Backed by Helena, Japan Motors and Info Edge Ventures",
+    "website": "https://matter.in",
+    "location": {
+      "area": "Thaltej",
+      "address": "Thaltej, Ahmedabad, Gujarat",
+      "lat": 23.0468,
+      "lng": 72.5115,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Battery Systems Engineer",
+        "type": "full-time",
+        "link": "https://matter.in/careers",
+        "team": "Powertrain"
+      },
+      {
+        "title": "Embedded Software Engineer",
+        "type": "full-time",
+        "link": "https://matter.in/careers",
+        "team": "Electronics"
+      },
+      {
+        "title": "Mechanical Design Intern",
+        "type": "internship",
+        "link": "https://matter.in/careers",
+        "team": "Design"
+      }
+    ],
+    "tags": [
+      "ev",
+      "mobility",
+      "hardware"
+    ],
+    "featured": true
+  },
+  {
+    "id": "medkart",
+    "name": "Medkart Pharmacy",
+    "description": "Omnichannel generic-medicine pharmacy chain that helps patients substitute branded prescriptions with quality-assured generics at a lower price.",
+    "sector": "HealthTech",
+    "stage": "Series A",
+    "type": "startup",
+    "founded": 2014,
+    "founders": [
+      "Ankur Agarwal",
+      "Parasharan Chari"
+    ],
+    "funding": "Backed by Nexus Venture Partners",
+    "website": "https://www.medkart.in",
+    "location": {
+      "area": "Bodakdev",
+      "address": "Bodakdev, Ahmedabad, Gujarat",
+      "lat": 23.0392,
+      "lng": 72.5061,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Store Operations Manager",
+        "type": "full-time",
+        "link": "https://www.medkart.in",
+        "team": "Retail Ops"
+      },
+      {
+        "title": "Pharmacist",
+        "type": "full-time",
+        "link": "https://www.medkart.in",
+        "team": "Retail"
+      },
+      {
+        "title": "Supply Chain Intern",
+        "type": "internship",
+        "link": "https://www.medkart.in",
+        "team": "Supply Chain"
+      }
+    ],
+    "tags": [
+      "pharmacy",
+      "generics",
+      "healthcare-retail"
+    ]
+  },
+  {
+    "id": "mindinventory",
+    "name": "MindInventory",
+    "description": "Design and engineering studio building mobile apps, web platforms and AI features for startups and enterprises across the US, UK and Middle East.",
+    "sector": "IT Services",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2011,
+    "founders": [
+      "Mehul Rajput",
+      "Kalpesh Maniya"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.mindinventory.com",
+    "location": {
+      "area": "Prahlad Nagar",
+      "address": "Prahlad Nagar, Ahmedabad, Gujarat",
+      "lat": 23.0098,
+      "lng": 72.5148,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "React Native Developer",
+        "type": "full-time",
+        "link": "https://www.mindinventory.com/career.php",
+        "team": "Mobile"
+      },
+      {
+        "title": "UI/UX Design Intern",
+        "type": "internship",
+        "link": "https://www.mindinventory.com/career.php",
+        "team": "Design"
+      }
+    ],
+    "tags": [
+      "mobile-apps",
+      "design",
+      "consulting"
+    ]
+  },
+  {
+    "id": "myclasscampus",
+    "name": "MyClassCampus",
+    "description": "Mobile-first ERP for schools, coaching institutes and colleges covering admissions, fee collection, attendance and parent communication.",
+    "sector": "EdTech",
+    "stage": "Seed",
+    "type": "startup",
+    "founded": 2016,
+    "founders": [
+      "Raj Kothari"
+    ],
+    "funding": "Seed funded",
+    "website": "https://www.myclasscampus.com",
+    "location": {
+      "area": "Navrangpura",
+      "address": "Navrangpura, Ahmedabad, Gujarat",
+      "lat": 23.0339,
+      "lng": 72.5588,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Flutter Developer",
+        "type": "full-time",
+        "link": "https://www.myclasscampus.com",
+        "team": "Engineering"
+      },
+      {
+        "title": "Inside Sales Executive",
+        "type": "full-time",
+        "link": "https://www.myclasscampus.com",
+        "team": "Sales"
+      }
+    ],
+    "tags": [
+      "school-erp",
+      "edtech",
+      "b2b-saas"
+    ]
+  },
+  {
+    "id": "openxcell",
+    "name": "OpenXcell",
+    "description": "Software and mobile app development company offering dedicated engineering teams, with a growing generative-AI and cloud practice.",
+    "sector": "IT Services",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2009,
+    "founders": [
+      "Ronak Patel"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.openxcell.com",
+    "location": {
+      "area": "Bodakdev",
+      "address": "Sindhu Bhavan Road, Bodakdev, Ahmedabad, Gujarat",
+      "lat": 23.0432,
+      "lng": 72.4989,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Generative AI Engineer",
+        "type": "full-time",
+        "link": "https://www.openxcell.com/career/",
+        "team": "AI"
+      },
+      {
+        "title": "Flutter Developer",
+        "type": "full-time",
+        "link": "https://www.openxcell.com/career/",
+        "team": "Mobile"
+      },
+      {
+        "title": "HR Intern",
+        "type": "internship",
+        "link": "https://www.openxcell.com/career/",
+        "team": "People"
+      }
+    ],
+    "tags": [
+      "app-development",
+      "ai",
+      "consulting"
+    ]
+  },
+  {
+    "id": "optimized-electrotech",
+    "name": "Optimized Electrotech",
+    "description": "Deeptech company building electro-optical surveillance payloads and AI-enabled imaging systems for defence, border security and space applications.",
+    "sector": "DeepTech",
+    "stage": "Series A",
+    "type": "startup",
+    "founded": 2016,
+    "founders": [
+      "Sandeep Shah"
+    ],
+    "funding": "Backed by Mela Ventures and IPV",
+    "website": "https://www.optimizedelectrotech.com",
+    "location": {
+      "area": "Gandhinagar",
+      "address": "Gandhinagar, Gujarat",
+      "lat": 23.2183,
+      "lng": 72.6401,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Optical Design Engineer",
+        "type": "full-time",
+        "link": "https://www.optimizedelectrotech.com",
+        "team": "Optics"
+      },
+      {
+        "title": "Computer Vision Engineer",
+        "type": "full-time",
+        "link": "https://www.optimizedelectrotech.com",
+        "team": "AI"
+      }
+    ],
+    "tags": [
+      "defence-tech",
+      "optics",
+      "computer-vision"
+    ]
+  },
+  {
+    "id": "peerbits",
+    "name": "Peerbits",
+    "description": "Digital transformation partner building enterprise mobility, logistics tech and healthcare software for clients in the Middle East and Europe.",
+    "sector": "IT Services",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2011,
+    "founders": [
+      "Zeeshan Kagdi"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.peerbits.com",
+    "location": {
+      "area": "Vastrapur",
+      "address": "Vastrapur, Ahmedabad, Gujarat",
+      "lat": 23.0367,
+      "lng": 72.5292,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Backend Engineer (Python)",
+        "type": "full-time",
+        "link": "https://www.peerbits.com/career.html",
+        "team": "Engineering"
+      },
+      {
+        "title": "Digital Marketing Intern",
+        "type": "internship",
+        "link": "https://www.peerbits.com/career.html",
+        "team": "Marketing"
+      }
+    ],
+    "tags": [
+      "enterprise-mobility",
+      "consulting"
+    ]
+  },
+  {
+    "id": "petpooja",
+    "name": "Petpooja",
+    "description": "All-in-one restaurant POS and management platform covering billing, inventory, online-order aggregation and CRM for tens of thousands of Indian restaurants.",
+    "sector": "SaaS",
+    "stage": "Series B",
+    "type": "startup",
+    "founded": 2011,
+    "founders": [
+      "Prasanna Kumar",
+      "Ashutosh Vinchurkar"
+    ],
+    "funding": "Backed by Bessemer Venture Partners",
+    "website": "https://www.petpooja.com",
+    "location": {
+      "area": "SG Highway",
+      "address": "SG Highway, Ahmedabad, Gujarat",
+      "lat": 23.0341,
+      "lng": 72.5062,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Frontend Engineer",
+        "type": "full-time",
+        "link": "https://www.petpooja.com/careers",
+        "team": "Engineering"
+      },
+      {
+        "title": "Backend Engineer (Node.js)",
+        "type": "full-time",
+        "link": "https://www.petpooja.com/careers",
+        "team": "Engineering"
+      },
+      {
+        "title": "Product Marketing Intern",
+        "type": "internship",
+        "link": "https://www.petpooja.com/careers",
+        "team": "Marketing"
+      },
+      {
+        "title": "Enterprise Sales Manager",
+        "type": "full-time",
+        "link": "https://www.petpooja.com/careers",
+        "team": "Sales"
+      }
+    ],
+    "tags": [
+      "restaurant-tech",
+      "pos",
+      "b2b-saas"
+    ],
+    "featured": true
+  },
+  {
+    "id": "prompt-equipments",
+    "name": "Prompt Equipments",
+    "description": "Dairy and agri automation company building automatic milk collection units, milk analysers and digital procurement systems used by thousands of village cooperatives.",
+    "sector": "AgriTech",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 1992,
+    "founders": [
+      "Ashok Rathod"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.promptgroup.co",
+    "location": {
+      "area": "Sanand",
+      "address": "Changodar, Sanand, Ahmedabad district, Gujarat",
+      "lat": 22.9463,
+      "lng": 72.4581,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Embedded Systems Engineer",
+        "type": "full-time",
+        "link": "https://www.promptgroup.co",
+        "team": "Hardware"
+      },
+      {
+        "title": "Field Service Engineer",
+        "type": "full-time",
+        "link": "https://www.promptgroup.co",
+        "team": "Service"
+      }
+    ],
+    "tags": [
+      "dairy-tech",
+      "agri-automation",
+      "hardware"
+    ]
+  },
+  {
+    "id": "radixweb",
+    "name": "Radixweb",
+    "description": "Software outsourcing company delivering custom enterprise applications, cloud migration and dedicated development teams from Ahmedabad.",
+    "sector": "IT Services",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2000,
+    "founders": [
+      "Dharmesh Acharya"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://radixweb.com",
+    "location": {
+      "area": "Prahlad Nagar",
+      "address": "Prahlad Nagar, Ahmedabad, Gujarat",
+      "lat": 23.0141,
+      "lng": 72.5127,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": ".NET Full Stack Developer",
+        "type": "full-time",
+        "link": "https://radixweb.com/careers",
+        "team": "Engineering"
+      },
+      {
+        "title": "Business Development Executive",
+        "type": "full-time",
+        "link": "https://radixweb.com/careers",
+        "team": "Sales"
+      }
+    ],
+    "tags": [
+      "outsourcing",
+      "enterprise-software"
+    ]
+  },
+  {
+    "id": "rapidops",
+    "name": "Rapidops",
+    "description": "Product studio and SaaS builder working with mid-market companies on digital products, analytics dashboards and internal platforms.",
+    "sector": "IT Services",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2007,
+    "founders": [
+      "Nirav Shastri"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.rapidops.com",
+    "location": {
+      "area": "Prahlad Nagar",
+      "address": "Prahlad Nagar, Ahmedabad, Gujarat",
+      "lat": 23.0129,
+      "lng": 72.5049,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Product Manager",
+        "type": "full-time",
+        "link": "https://www.rapidops.com/careers/",
+        "team": "Product"
+      },
+      {
+        "title": "UI Engineer",
+        "type": "full-time",
+        "link": "https://www.rapidops.com/careers/",
+        "team": "Engineering"
+      }
+    ],
+    "tags": [
+      "product-studio",
+      "saas",
+      "consulting"
+    ]
+  },
+  {
+    "id": "sahaj-solar",
+    "name": "Sahaj Solar",
+    "description": "Solar EPC and manufacturing company delivering solar pumps, rooftop systems and utility-scale projects, listed on NSE Emerge.",
+    "sector": "CleanTech",
+    "stage": "Public",
+    "type": "startup",
+    "founded": 2010,
+    "founders": [
+      "Manish Patel"
+    ],
+    "funding": "Listed on NSE Emerge",
+    "website": "https://www.sahajsolar.com",
+    "location": {
+      "area": "Other",
+      "address": "Ahmedabad, Gujarat",
+      "lat": 23.0142,
+      "lng": 72.6089,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Solar Project Engineer",
+        "type": "full-time",
+        "link": "https://www.sahajsolar.com",
+        "team": "Projects"
+      },
+      {
+        "title": "Design Engineer — PV Systems",
+        "type": "full-time",
+        "link": "https://www.sahajsolar.com",
+        "team": "Design"
+      }
+    ],
+    "tags": [
+      "solar",
+      "renewables",
+      "epc"
+    ]
+  },
+  {
+    "id": "saleshandy",
+    "name": "Saleshandy",
+    "description": "Cold email outreach and sales engagement platform with mailbox rotation, deliverability tooling and a built-in B2B lead database.",
+    "sector": "SaaS",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2015,
+    "founders": [
+      "Dhruv Patel",
+      "Piyush Patel"
+    ],
+    "funding": "Bootstrapped, profitable",
+    "website": "https://www.saleshandy.com",
+    "location": {
+      "area": "Satellite",
+      "address": "Satellite, Ahmedabad, Gujarat",
+      "lat": 23.0281,
+      "lng": 72.5176,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Senior Backend Engineer",
+        "type": "full-time",
+        "link": "https://www.saleshandy.com/careers/",
+        "team": "Engineering"
+      },
+      {
+        "title": "Product Designer",
+        "type": "full-time",
+        "link": "https://www.saleshandy.com/careers/",
+        "team": "Design"
+      },
+      {
+        "title": "SEO Content Intern",
+        "type": "internship",
+        "link": "https://www.saleshandy.com/careers/",
+        "team": "Marketing"
+      }
+    ],
+    "tags": [
+      "sales-engagement",
+      "cold-email",
+      "b2b-saas"
+    ],
+    "featured": true
+  },
+  {
+    "id": "sculptsoft",
+    "name": "SculptSoft",
+    "description": "AI and machine learning services company building computer vision, NLP and data engineering solutions for healthcare, retail and manufacturing clients.",
+    "sector": "AI",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2011,
+    "founders": [
+      "Nirav Shah"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.sculptsoft.com",
+    "location": {
+      "area": "Satellite",
+      "address": "Satellite, Ahmedabad, Gujarat",
+      "lat": 23.0316,
+      "lng": 72.5223,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Computer Vision Engineer",
+        "type": "full-time",
+        "link": "https://www.sculptsoft.com",
+        "team": "AI"
+      },
+      {
+        "title": "ML Research Intern",
+        "type": "internship",
+        "link": "https://www.sculptsoft.com",
+        "team": "AI"
+      }
+    ],
+    "tags": [
+      "machine-learning",
+      "computer-vision",
+      "consulting"
+    ]
+  },
+  {
+    "id": "silver-touch",
+    "name": "Silver Touch Technologies",
+    "description": "IT infrastructure and enterprise applications company listed on NSE, running large government and enterprise digitisation programmes.",
+    "sector": "IT Services",
+    "stage": "Public",
+    "type": "startup",
+    "founded": 1992,
+    "founders": [
+      "Vipul Thakkar"
+    ],
+    "funding": "Listed on NSE",
+    "website": "https://www.silvertouch.com",
+    "location": {
+      "area": "Ambawadi",
+      "address": "Nr Panchwati Circle, Ambawadi, Ahmedabad, Gujarat",
+      "lat": 23.0186,
+      "lng": 72.5501,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "SAP Consultant",
+        "type": "full-time",
+        "link": "https://www.silvertouch.com/careers/",
+        "team": "ERP"
+      },
+      {
+        "title": "System Administrator",
+        "type": "full-time",
+        "link": "https://www.silvertouch.com/careers/",
+        "team": "Infrastructure"
+      }
+    ],
+    "tags": [
+      "e-governance",
+      "erp",
+      "it-infrastructure"
+    ]
+  },
+  {
+    "id": "simform",
+    "name": "Simform",
+    "description": "Product engineering firm building cloud-native applications, data platforms and DevOps practices for US and European technology companies.",
+    "sector": "IT Services",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2010,
+    "founders": [
+      "Hiren Dhaduk",
+      "Jignesh Solanki"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.simform.com",
+    "location": {
+      "area": "Ambawadi",
+      "address": "Sun Avenue One, Ayojan Nagar, Ambawadi, Ahmedabad",
+      "lat": 23.0102,
+      "lng": 72.5433,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Senior React Engineer",
+        "type": "full-time",
+        "link": "https://www.simform.com/careers/",
+        "team": "Engineering"
+      },
+      {
+        "title": "Cloud/DevOps Engineer",
+        "type": "full-time",
+        "link": "https://www.simform.com/careers/",
+        "team": "Cloud"
+      },
+      {
+        "title": "Software Engineering Intern",
+        "type": "internship",
+        "link": "https://www.simform.com/careers/",
+        "team": "Engineering"
+      }
+    ],
+    "tags": [
+      "product-engineering",
+      "cloud",
+      "consulting"
+    ]
+  },
+  {
+    "id": "socialpilot",
+    "name": "SocialPilot",
+    "description": "Social media scheduling and analytics suite aimed at agencies and small marketing teams managing many client accounts at once.",
+    "sector": "SaaS",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2014,
+    "founders": [
+      "Jimit Bagadiya",
+      "Tejas Mehta"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.socialpilot.co",
+    "location": {
+      "area": "Prahlad Nagar",
+      "address": "Prahlad Nagar, Ahmedabad, Gujarat",
+      "lat": 23.0126,
+      "lng": 72.5104,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Software Engineer — PHP/Laravel",
+        "type": "full-time",
+        "link": "https://www.socialpilot.co/careers",
+        "team": "Engineering"
+      },
+      {
+        "title": "Growth Marketer",
+        "type": "full-time",
+        "link": "https://www.socialpilot.co/careers",
+        "team": "Marketing"
+      }
+    ],
+    "tags": [
+      "martech",
+      "social-media",
+      "b2b-saas"
+    ]
+  },
+  {
+    "id": "softweb-solutions",
+    "name": "Softweb Solutions",
+    "description": "AI, IoT and data analytics services company with its main delivery centre in Ahmedabad; acquired by Avnet in 2018.",
+    "sector": "AI",
+    "stage": "Acquired",
+    "type": "startup",
+    "founded": 2000,
+    "founders": [
+      "Ripal Vaidya"
+    ],
+    "funding": "Acquired by Avnet",
+    "website": "https://www.softwebsolutions.com",
+    "location": {
+      "area": "SG Highway",
+      "address": "SG Highway, Ahmedabad, Gujarat",
+      "lat": 23.0512,
+      "lng": 72.5006,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Data Scientist",
+        "type": "full-time",
+        "link": "https://www.softwebsolutions.com/careers.html",
+        "team": "AI"
+      },
+      {
+        "title": "IoT Solutions Engineer",
+        "type": "full-time",
+        "link": "https://www.softwebsolutions.com/careers.html",
+        "team": "IoT"
+      }
+    ],
+    "tags": [
+      "ai",
+      "iot",
+      "analytics"
+    ]
+  },
+  {
+    "id": "space-o",
+    "name": "Space-O Technologies",
+    "description": "Mobile app development studio with a portfolio of consumer and enterprise apps, now also building AI assistants and chatbot products.",
+    "sector": "IT Services",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2010,
+    "founders": [
+      "Bhaval Patel"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.spaceotechnologies.com",
+    "location": {
+      "area": "Satellite",
+      "address": "Satellite, Ahmedabad, Gujarat",
+      "lat": 23.0242,
+      "lng": 72.5209,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Android Developer",
+        "type": "full-time",
+        "link": "https://www.spaceotechnologies.com",
+        "team": "Mobile"
+      },
+      {
+        "title": "Business Analyst",
+        "type": "full-time",
+        "link": "https://www.spaceotechnologies.com",
+        "team": "Product"
+      }
+    ],
+    "tags": [
+      "app-development",
+      "mobile",
+      "consulting"
+    ]
+  },
+  {
+    "id": "symphony",
+    "name": "Symphony Limited",
+    "description": "Listed consumer-durables company that pioneered the modern air cooler category in India and exports to more than 60 countries.",
+    "sector": "D2C",
+    "stage": "Public",
+    "type": "startup",
+    "founded": 1988,
+    "founders": [
+      "Achal Bakeri"
+    ],
+    "funding": "Listed on NSE and BSE",
+    "website": "https://www.symphonylimited.com",
+    "location": {
+      "area": "Bodakdev",
+      "address": "Symphony House, FP-12, TP-50, Bodakdev, Ahmedabad, Gujarat",
+      "lat": 23.0404,
+      "lng": 72.5085,
+      "pinType": "precise"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Product Design Engineer",
+        "type": "full-time",
+        "link": "https://www.symphonylimited.com",
+        "team": "R&D"
+      },
+      {
+        "title": "E-commerce Executive",
+        "type": "full-time",
+        "link": "https://www.symphonylimited.com",
+        "team": "Digital"
+      }
+    ],
+    "tags": [
+      "consumer-durables",
+      "air-coolers",
+      "manufacturing"
+    ]
+  },
+  {
+    "id": "tatvasoft",
+    "name": "TatvaSoft",
+    "description": "CMMI-appraised software development company building custom enterprise software, ERP integrations and mobile applications for global clients.",
+    "sector": "IT Services",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2001,
+    "founders": [
+      "Jayesh Patel"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.tatvasoft.com",
+    "location": {
+      "area": "Prahlad Nagar",
+      "address": "Prahlad Nagar, Ahmedabad, Gujarat",
+      "lat": 23.0075,
+      "lng": 72.5122,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Software Engineer — Java",
+        "type": "full-time",
+        "link": "https://www.tatvasoft.com/careers",
+        "team": "Engineering"
+      },
+      {
+        "title": "QA Engineer",
+        "type": "full-time",
+        "link": "https://www.tatvasoft.com/careers",
+        "team": "Quality"
+      }
+    ],
+    "tags": [
+      "custom-software",
+      "enterprise",
+      "consulting"
+    ]
+  },
+  {
+    "id": "tatvic",
+    "name": "Tatvic Analytics",
+    "description": "Marketing analytics consultancy and Google Cloud/Analytics partner building data pipelines, experimentation and attribution systems for large consumer brands.",
+    "sector": "AI",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2007,
+    "founders": [
+      "Ravi Pathak"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.tatvic.com",
+    "location": {
+      "area": "Satellite",
+      "address": "Shivalik Shilp, Iscon Cross Road, Ahmedabad, Gujarat",
+      "lat": 23.0263,
+      "lng": 72.5142,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Analytics Engineer",
+        "type": "full-time",
+        "link": "https://www.tatvic.com/careers/",
+        "team": "Data"
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "type": "full-time",
+        "link": "https://www.tatvic.com/careers/",
+        "team": "Data Science"
+      },
+      {
+        "title": "Data Analyst Intern",
+        "type": "internship",
+        "link": "https://www.tatvic.com/careers/",
+        "team": "Analytics"
+      }
+    ],
+    "tags": [
+      "analytics",
+      "data-engineering",
+      "google-cloud"
+    ]
+  },
+  {
+    "id": "torrent-pharma",
+    "name": "Torrent Pharmaceuticals",
+    "description": "Listed pharmaceutical company with a leading branded-generics franchise in cardiology, CNS and gastro across India, Brazil and Germany.",
+    "sector": "HealthTech",
+    "stage": "Public",
+    "type": "startup",
+    "founded": 1959,
+    "founders": [
+      "U. N. Mehta"
+    ],
+    "funding": "Listed on NSE and BSE",
+    "website": "https://www.torrentpharma.com",
+    "location": {
+      "area": "Ashram Road",
+      "address": "Torrent House, Off Ashram Road, Ahmedabad, Gujarat",
+      "lat": 23.0281,
+      "lng": 72.5701,
+      "pinType": "precise"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Clinical Research Associate",
+        "type": "full-time",
+        "link": "https://www.torrentpharma.com/careers",
+        "team": "Clinical"
+      },
+      {
+        "title": "Manufacturing Quality Officer",
+        "type": "full-time",
+        "link": "https://www.torrentpharma.com/careers",
+        "team": "Quality"
+      }
+    ],
+    "tags": [
+      "pharma",
+      "branded-generics"
+    ]
+  },
+  {
+    "id": "trukky",
+    "name": "Trukky",
+    "description": "Online freight marketplace connecting shippers with verified truck operators for full-truckload movement across Gujarat and the rest of India.",
+    "sector": "Logistics",
+    "stage": "Seed",
+    "type": "startup",
+    "founded": 2015,
+    "founders": [
+      "Jaimin Patel"
+    ],
+    "funding": "Seed funded",
+    "website": "https://www.trukky.com",
+    "location": {
+      "area": "Navrangpura",
+      "address": "Navrangpura, Ahmedabad, Gujarat",
+      "lat": 23.0392,
+      "lng": 72.5631,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Operations Executive",
+        "type": "full-time",
+        "link": "https://www.trukky.com",
+        "team": "Operations"
+      },
+      {
+        "title": "Business Development Intern",
+        "type": "internship",
+        "link": "https://www.trukky.com",
+        "team": "Sales"
+      }
+    ],
+    "tags": [
+      "freight",
+      "trucking",
+      "marketplace"
+    ]
+  },
+  {
+    "id": "vadilal",
+    "name": "Vadilal Industries",
+    "description": "Century-old Ahmedabad ice cream and frozen foods company, now one of India's largest ice cream brands with a sizeable processed-foods export business.",
+    "sector": "D2C",
+    "stage": "Public",
+    "type": "startup",
+    "founded": 1907,
+    "founders": [
+      "Vadilal Gandhi"
+    ],
+    "funding": "Listed on NSE and BSE",
+    "website": "https://www.vadilalgroup.com",
+    "location": {
+      "area": "Navrangpura",
+      "address": "Vadilal House, Shrimali Society, Navrangpura, Ahmedabad, Gujarat",
+      "lat": 23.0362,
+      "lng": 72.5652,
+      "pinType": "precise"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Supply Chain Analyst",
+        "type": "full-time",
+        "link": "https://www.vadilalgroup.com",
+        "team": "Supply Chain"
+      },
+      {
+        "title": "Trade Marketing Intern",
+        "type": "internship",
+        "link": "https://www.vadilalgroup.com",
+        "team": "Marketing"
+      }
+    ],
+    "tags": [
+      "fmcg",
+      "ice-cream",
+      "frozen-foods"
+    ]
+  },
+  {
+    "id": "venture-studio",
+    "name": "Venture Studio",
+    "description": "Ahmedabad University's venture-building programme that pairs founders with design, engineering and business mentorship to take ideas to first revenue.",
+    "sector": "Other",
+    "stage": "Pre-seed",
+    "type": "vc",
+    "founded": 2013,
+    "founders": [],
+    "funding": "University-backed",
+    "website": "https://venturestudio.co.in",
+    "location": {
+      "area": "Navrangpura",
+      "address": "Ahmedabad University, Central Campus, Navrangpura, Ahmedabad",
+      "lat": 23.0378,
+      "lng": 72.5528,
+      "pinType": "precise"
+    },
+    "hiring": false,
+    "jobs": [],
+    "tags": [
+      "venture-building",
+      "university",
+      "design"
+    ]
+  },
+  {
+    "id": "yudiz",
+    "name": "Yudiz Solutions",
+    "description": "Game development, blockchain and mobile app studio listed on NSE Emerge, building casual and real-money games alongside enterprise Web3 products.",
+    "sector": "Gaming",
+    "stage": "Public",
+    "type": "startup",
+    "founded": 2011,
+    "founders": [
+      "Bharat Patel"
+    ],
+    "funding": "Listed on NSE Emerge",
+    "website": "https://www.yudiz.com",
+    "location": {
+      "area": "SG Highway",
+      "address": "Shivalik Shilp, Iscon Cross Road, SG Highway, Ahmedabad",
+      "lat": 23.0272,
+      "lng": 72.5079,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Unity Game Developer",
+        "type": "full-time",
+        "link": "https://www.yudiz.com/careers/",
+        "team": "Games"
+      },
+      {
+        "title": "Blockchain Developer",
+        "type": "full-time",
+        "link": "https://www.yudiz.com/careers/",
+        "team": "Web3"
+      },
+      {
+        "title": "Game Art Intern",
+        "type": "internship",
+        "link": "https://www.yudiz.com/careers/",
+        "team": "Art"
+      }
+    ],
+    "tags": [
+      "game-dev",
+      "blockchain",
+      "mobile-apps"
+    ]
+  },
+  {
+    "id": "zignuts",
+    "name": "Zignuts Technolab",
+    "description": "Full-stack development studio working on web, mobile and AI products for startups, with a delivery centre in Gandhinagar.",
+    "sector": "IT Services",
+    "stage": "Bootstrapped",
+    "type": "startup",
+    "founded": 2016,
+    "founders": [
+      "Nikunj Sanghani"
+    ],
+    "funding": "Bootstrapped",
+    "website": "https://www.zignuts.com",
+    "location": {
+      "area": "Gandhinagar",
+      "address": "Gandhinagar, Gujarat",
+      "lat": 23.2264,
+      "lng": 72.6501,
+      "pinType": "area"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "MERN Stack Developer",
+        "type": "full-time",
+        "link": "https://www.zignuts.com/career",
+        "team": "Engineering"
+      },
+      {
+        "title": "Software Intern",
+        "type": "internship",
+        "link": "https://www.zignuts.com/career",
+        "team": "Engineering"
+      }
+    ],
+    "tags": [
+      "web-development",
+      "startup-partner"
+    ]
+  },
+  {
+    "id": "zydus-lifesciences",
+    "name": "Zydus Lifesciences",
+    "description": "One of India's largest pharmaceutical groups, with a generics business in the US and India plus a vaccines and biologics arm headquartered in Ahmedabad.",
+    "sector": "HealthTech",
+    "stage": "Public",
+    "type": "startup",
+    "founded": 1952,
+    "founders": [
+      "Ramanbhai Patel"
+    ],
+    "funding": "Listed on NSE and BSE",
+    "website": "https://www.zyduslife.com",
+    "location": {
+      "area": "SG Highway",
+      "address": "Zydus Corporate Park, Nr Vaishnodevi Circle, SG Highway, Ahmedabad",
+      "lat": 23.1013,
+      "lng": 72.5386,
+      "pinType": "precise"
+    },
+    "hiring": true,
+    "jobs": [
+      {
+        "title": "Research Scientist — Formulation",
+        "type": "full-time",
+        "link": "https://www.zyduslife.com/zyduslife/careers",
+        "team": "R&D"
+      },
+      {
+        "title": "Regulatory Affairs Associate",
+        "type": "full-time",
+        "link": "https://www.zyduslife.com/zyduslife/careers",
+        "team": "Regulatory"
+      },
+      {
+        "title": "Data Engineer",
+        "type": "full-time",
+        "link": "https://www.zyduslife.com/zyduslife/careers",
+        "team": "Digital"
+      }
+    ],
+    "tags": [
+      "pharma",
+      "generics",
+      "biologics"
+    ]
+  }
+]

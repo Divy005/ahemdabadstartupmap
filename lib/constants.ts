@@ -124,6 +124,7 @@ export const MARKER_COLORS = {
   precise: "#1D4ED8",
   area: "#F59E0B",
   vc: "#7C3AED",
+  registry: "#94A3B8",
 } as const;
 
 export const SUBMIT_FORM_URL =

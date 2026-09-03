@@ -8,6 +8,7 @@ const ITEMS = [
   { color: MARKER_COLORS.precise, label: "Startup — precise office pin", dashed: false },
   { color: MARKER_COLORS.area, label: "Startup — area-level pin", dashed: true },
   { color: MARKER_COLORS.vc, label: "VC firm / Incubator", dashed: false },
+  { color: MARKER_COLORS.registry, label: "Registered company (MCA)", dashed: false },
 ];
 
 // Ring colours read on the pin border; the disc itself carries the logo.

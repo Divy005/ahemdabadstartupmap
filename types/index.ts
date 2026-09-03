@@ -1,4 +1,4 @@
-export type EntityType = "startup" | "vc";
+export type EntityType = "startup" | "vc" | "registry";
 
 export type PinType = "precise" | "area";
 
@@ -34,6 +34,8 @@ export interface Startup {
   website?: string;
   /** Where this record came from, for the methodology note. */
   source?: string;
+  /** Legal name on the MCA register, when we matched one. */
+  registeredAs?: string;
   location: StartupLocation;
   hiring: boolean;
   jobs: Job[];

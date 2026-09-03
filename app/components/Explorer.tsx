@@ -128,6 +128,7 @@ export default function Explorer() {
     () => ({
       startups: filtered.filter((s) => s.type === "startup").length,
       vcs: filtered.filter((s) => s.type === "vc").length,
+      registry: filtered.filter((s) => s.type === "registry").length,
       jobs: visibleJobCount,
       areas: new Set(filtered.map((s) => s.location.area)).size,
       sectors: new Set(filtered.map((s) => s.sector)).size,

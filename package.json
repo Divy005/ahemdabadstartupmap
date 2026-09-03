@@ -12,6 +12,7 @@
     "import": "node scripts/import-startups.mjs"
   },
   "dependencies": {
+    "india-pincode": "^2.5.9",
     "leaflet": "^1.9.4",
     "leaflet.markercluster": "^1.5.3",
     "next": "14.2.35",

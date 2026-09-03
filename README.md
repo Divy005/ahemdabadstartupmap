@@ -193,12 +193,17 @@ avatar — which is what every entry currently uses.
 
 ## Where the current data came from
 
-The dataset mixes two tiers, and every entry says which it belongs to:
+The dataset has three tiers, and every entry says which it belongs to. The
+`type` filter separates them, so you can browse curated startups alone.
 
 | Tier | Count | What it means |
 | --- | --- | --- |
-| Hand-checked | 60 | Compiled entry by entry, with area-level or precise pins, founders, funding and curated job links. |
-| Imported | 32 | Pulled from public Indian startup funding datasets on GitHub (Kaggle mirrors). City-level location only, no website, founders and year not independently verified. Each carries a `source` note shown in its detail panel. |
+| Hand-checked startups & VCs | 92 | Compiled entry by entry: founders, funding, curated job links. 28 of them now carry their registered office address from the MCA register. |
+| On MCA register | 1,451 | Companies on the Registrar of Companies register for Gujarat, filtered to Ahmedabad addresses, ACTIVE status, NIC code 72xx (computer & related activities) and incorporation from 2010. Real registered addresses, pincode-level coordinates. Not verified as active startups — many are small IT firms or dormant shells. |
+
+Within the first tier, 32 entries came from public funding datasets rather than
+hand research; those carry a `source` note saying their location is city-level
+and their founders and year are not independently verified.
 
 The imported tier came from these public repositories:
 
@@ -218,6 +223,30 @@ operates in, alphabetically, so "Ahmedabad + 434 more" is a Mumbai company
 sorting first. Names are also truncated mid-string and there are no websites or
 street addresses. Importing it would have padded the map with tyre factories
 and hospitals rather than improving it.
+
+### The MCA register, and what it is not
+
+`Gujarat_2016.xlsx` from [`matcdac/CorporateIndiaDataSourceXLSX`](https://github.com/matcdac/CorporateIndiaDataSourceXLSX)
+holds 87,613 registered Gujarat companies with registered office addresses —
+41,040 of them with an Ahmedabad address. That is the only bulk source found
+with real street addresses, and it is what took this map past a thousand pins.
+
+Two honest caveats:
+
+- **It is the registered office, not necessarily the working office.** A
+  registered address is often a chartered accountant's office or a founder's
+  flat. Where a company's registered address and its known operating address
+  disagree, the register wins here because it is verifiable — but it can point
+  somewhere nobody actually works.
+- **A registered company is not a startup.** The NIC 72xx filter narrows it to
+  computer-related activities incorporated from 2010, which is a proxy, not a
+  definition. These entries are tagged `registry` and can be filtered out.
+
+Matching the register against the hand-checked entries corrected 16 of the 28
+areas that had been assigned by hand — Eris is in Thaltej rather than Prahlad
+Nagar, Havmor in Ellisbridge rather than Navrangpura. Coordinates come from
+pincode centroids via the `india-pincode` package, so no network geocoding is
+needed for any address carrying a pincode.
 
 ## Data methodology
 

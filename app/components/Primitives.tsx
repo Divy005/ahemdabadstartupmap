@@ -130,12 +130,21 @@ export function PinTypeNote({
 }
 
 export function TypeBadge({ type }: { type: Startup["type"] }) {
-  if (type !== "vc") return null;
-  return (
-    <span className="badge bg-purple-50 text-purple-700 ring-purple-200">
-      VC / Incubator
-    </span>
-  );
+  if (type === "vc") {
+    return (
+      <span className="badge bg-purple-50 text-purple-700 ring-purple-200">
+        VC / Incubator
+      </span>
+    );
+  }
+  if (type === "registry") {
+    return (
+      <span className="badge bg-slate-100 text-slate-600 ring-slate-300">
+        On MCA register
+      </span>
+    );
+  }
+  return null;
 }
 
 export function LocationLine({

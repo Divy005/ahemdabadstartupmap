@@ -16,6 +16,7 @@ const TYPE_OPTIONS = [
   { value: "all", label: "All types" },
   { value: "startup", label: "Startups" },
   { value: "vc", label: "VC firms / Incubators" },
+  { value: "registry", label: "Registered companies" },
 ];
 
 const SORT_OPTIONS: { value: SortKey; label: string }[] = [

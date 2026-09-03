@@ -20,6 +20,7 @@ type ClusterGroup = {
 };
 
 function markerColor(s: Startup) {
+  if (s.type === "registry") return MARKER_COLORS.registry;
   if (s.type === "vc") return MARKER_COLORS.vc;
   return s.location.pinType === "precise" ? MARKER_COLORS.precise : MARKER_COLORS.area;
 }
@@ -180,7 +181,7 @@ export default function MapView({
 
     for (const s of startups) {
       const color = markerColor(s);
-      const dashed = s.type !== "vc" && s.location.pinType === "area";
+      const dashed = s.type === "startup" && s.location.pinType === "area";
       const hiring = s.hiring && s.jobs.length > 0;
 
       // Logo pin: the company mark sits inside a ring coloured by entity type
